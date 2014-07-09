@@ -46,10 +46,10 @@
     </feature>
     <name>SFArts-Express</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Mobile version of SF/Arts.org
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="lrlarson@larsonassoc.org" href="http://www.larsonassoc.org">
+       Larson Associates
     </author>
     <content src="index.html" />
     <access origin="*" />
