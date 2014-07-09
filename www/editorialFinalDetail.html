@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+
+
+
+
+</head>
+
+<body>
+
+    <div data-role="page"  class="page-map"  id="editorialDetail"   style="width:100%; height:100%;">
+
+        <div data-role="header" data-add-back-btn="true"><h1><span id="dispString"></span> Highlight<br />
+            <span style="font-size:12px; font-weight:300; text-align:center" id="curatorFinal"></span></h1></div>
+        <div data-role="content" id="editorialStory"> <!-- content injected here --></div>
+
+        <script id="storyDetailTemplate" type="x-handlebars-template">
+            {{#each data}}
+            <div id="storyTitle" style=" text-align:center; font-size:18px; font-weight:bold; line-height:150%;"><span id="title">{{title}}</span> </div><br />
+            <div id="story">
+                <img src="{{imagename}}" style="width:auto; height:auto; float:left; padding-right:10px; padding-bottom:2px;">
+                <span  id="storyText">{{storytext}}</span><br />
+            </div>
+            <div id="details" style="clear:both;"><br />
+                <a href="eventFinalDetail.html?event_num={{event}}"  data-role="button" data-mini="true" data-theme="b">Event Details</a>
+
+            </div>
+            {{/each}}
+        </script>
+
+
+
+        <div data-role="footer">
+            <h4><a href="index.cfm" style="text-decoration:none; color:#FFF">SFArts.org</a></h4>
+        </div>
+    </div>
+
+
+</body>
+</html>
