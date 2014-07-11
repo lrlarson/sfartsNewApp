@@ -12,6 +12,26 @@ function onDeviceReady() {
     checkConnection();
 }
 
+document.addEventListener("resume", onResume, false);
+function onResume() {
+    setTimeout(function() {
+        initPage();
+    }, 0);
+}
+
+document.addEventListener("offline", onOffline, false);
+
+function onOffline() {
+    alert('Sorry -- it appears that you have lost your internet connection.');
+}
+
+
+document.addEventListener("online", onOnline, false);
+
+function onOnline() {
+    initPage();
+}
+
 $(function() {
     FastClick.attach(document.body);
 });

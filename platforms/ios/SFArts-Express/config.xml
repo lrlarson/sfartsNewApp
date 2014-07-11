@@ -55,4 +55,8 @@
     <access origin="*" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#rgbrgb" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="default" />
+    <preference name="BackgroundColor" value="0xff0000ff" />
+    <preference name="BackupWebStorage" value="local" />
 </widget>
