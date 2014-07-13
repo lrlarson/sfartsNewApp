@@ -306,6 +306,7 @@ $(document).on('pagebeforeshow', "#specDateEventsListDetail",function () {
 
 
 
+
         }
 
     });
@@ -363,6 +364,8 @@ $(document).on('pagebeforeshow', "#specDateSummaryPage",function () {
             $('#specDateSummary').empty();
             $('#specDateSummary').append(dateEventsTemplate(workReturn));
             $("#specDateSummary").listview().listview('refresh');
+
+            getDispCountForSpecDate(dateDecoded);
         }
     });
 
@@ -586,6 +589,71 @@ function initPage(){
 function testAlert(){
 
     alert('testAlert');
+}
+
+
+function getDispCountForSpecDate(targetDate){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getMasterEventsByDate_mobile',
+            returnFormat: 'json',
+            date1:targetDate,
+            date2:targetDate
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+            //console.log(workReturn);
+            $('#todayCount').html(workReturn.data.length);
+            dispArray = [1,2,3,4,5,6,7,8,9,10];
+            count=[];
+            $.each( dispArray , function( index, value ) {
+                internalCount = 0;
+                for (i=0;i < workReturn.data.length;i++){
+                    if (workReturn.data[i].id == value || workReturn.data[i].id2 == value){
+                        internalCount += 1;
+                    }
+                }
+                switch(value){
+                    case 1:
+                        $('#specDisp1Count').html(internalCount);
+                        break;
+                    case 2:
+                        $('#specDisp2Count').html(internalCount);
+                        break;
+                    case 3:
+                        $('#specDisp3Count').html(internalCount);
+                        break;
+                    case 4:
+                        $('#specDisp4Count').html(internalCount);
+                        break;
+                    case 5:
+                        $('#specDisp5Count').html(internalCount);
+                        break;
+                    case 6:
+                        $('#specDisp6Count').html(internalCount);
+                        break;
+                    case 7:
+                        $('#specDisp7Count').html(internalCount);
+                        break;
+                    case 8:
+                        $('#specDisp8Count').html(internalCount);
+                        break;
+                    case 9:
+                        $('#specDisp9Count').html(internalCount);
+                        break;
+                    case 10:
+                        $('#specDisp10Count').html(internalCount);
+                        break;
+                }
+            });
+        }
+    });
 }
 
 
