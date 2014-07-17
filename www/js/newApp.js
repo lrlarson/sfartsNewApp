@@ -15,7 +15,10 @@ function onDeviceReady() {
 document.addEventListener("resume", onResume, false);
 function onResume() {
     setTimeout(function() {
-        initPage();
+        connected = checkConnection();
+        if (connected) {
+            initPage();
+        }
     }, 0);
 }
 
@@ -52,7 +55,10 @@ function checkConnection() {
 
     if (networkState == 'No network connection'){
         alert('Sorry -- a network connection is required for this App.');
+        return false;
+    }else{
 
+        return true;
     }
 
 }
