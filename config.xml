@@ -17,7 +17,9 @@
     <preference name="BackgroundColor" value="0xff0000ff"/>
     <!-- for iOS-->
     <preference name="BackupWebStorage" value="local"/>
-
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
 
 
 </widget>

@@ -10,6 +10,13 @@ getLocation();
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     checkConnection();
+    navigator.geolocation.getCurrentPosition(function(position){
+        //alert('gettingPosition');
+        initialize(position.coords.latitude,position.coords.longitude,lat_lon);
+
+
+    });
+
 }
 
 document.addEventListener("resume", onResume, false);
@@ -592,10 +599,7 @@ function initPage(){
     getBookMarksCount();
 }
 
-function testAlert(){
 
-    alert('testAlert');
-}
 
 
 function getDispCountForSpecDate(targetDate){
@@ -941,7 +945,7 @@ document.addEventListener('deviceready', function () {
             navigator.notification.alert(
                 message,    // message
                 null,       // callback
-                "Workshop", // title
+                "SF/Arts Express", // title
                 'OK'        // buttonName
             );
         };
