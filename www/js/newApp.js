@@ -32,6 +32,8 @@ function onDeviceReady() {
 
 }
 
+
+
 document.addEventListener("resume", onResume, false);
 function onResume() {
     setTimeout(function() {
