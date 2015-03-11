@@ -4,22 +4,27 @@
 <title>Untitled Document</title>
 <head>
 
-
-
 </head>
 
 <body>
-<div data-role="page" id="closeToYouList" data-add-back-btn="true">
-
+<div data-role="page" id="neighborhoodEventList" >
     <div data-role="header" data-add-back-btn="true">
-        <h1>Closest Events <br /><span id="scope"></span> <br />  for <span id="thisDate"></span> </h1>
+        <h1>Events in<br /> <span id="neighborhood"><!-- inserted here --> </span> </h1>
+
     </div>
-    <div data-role="content" data-add-back-btn="true" id="content">
+    <div data-role="content">
+        <ul data-role="listview" id="neighborhoodEvents"><!--- injected here ---></ul>
 
-        <ul data-role="listview" id="eventList">
+        <script id="neighborhoodEventsTemplate" type="x-handlebars-template">
+            {{#each data}}
+                <li><a href="eventFinalDetail.html?event_num={{event_num}}">
 
-
-        </ul>
+                    <span class="summaryOrgName" style="font-weight:300">{{org_name}}<br /></span>
+                    <span class="summaryOrgName" style="font-weight:100">{{date_string}}<br /></span>
+                    {{event_name}}
+                </a></li>
+            {{/each}}
+         </script>
 
 
     </div>
@@ -33,8 +38,6 @@
             </ul>
         </div>
     </div>
-
 </div>
-
 </body>
 </html>

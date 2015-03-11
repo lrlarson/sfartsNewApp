@@ -34,6 +34,7 @@
             <li><a href="#featuredPublicArt">Featured Public Art</a></li>
             --->
             <li><a href="#closeToYouMenu">Events Close to You</a></li>
+            <li><a href="#neighborHoodMenu">By Neighborhood</a></li>
             <li id="bMarks"><a href="bookmarkedEvents.html">Bookmarked Events<span class="ui-li-count" id="bookCount"></span></a></li>
 
         </ul>
@@ -235,6 +236,55 @@
     </div>
 </div>
 
+<div data-role="page" id="neighborHoodMenu" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>By Neighborhood</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li><a href="neighborhood.html?nb=1">Castro/Noe Valley/Upper Market <span class="ui-li-count" id="nb1Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=2">Chinatown <span class="ui-li-count" id="nb2Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=3">Civic Center/Hayes Valley   <span class="ui-li-count" id="nb3Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=4">Embarcadero/Financial District <span class="ui-li-count" id="nb4Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=5">Fisherman's Wharf<span class="ui-li-count" id="nb5Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=6">Haight-Ashbury<span class="ui-li-count" id="nb6Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=8">Bayview<span class="ui-li-count" id="nb8Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=11">Mission District/Potrero<span class="ui-li-count" id="nb11Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=12">Nob Hill<span class="ui-li-count" id="nb12Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=13">North Beach<span class="ui-li-count" id="nb13Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=14">SOMA/Yerba Buena<span class="ui-li-count" id="nb14Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=15">Union Square<span class="ui-li-count" id="nb15Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=18">Fillmore<span class="ui-li-count" id="nb18Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=19">Japantown<span class="ui-li-count" id="nb19Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=20">Marina/Pacific Heights<span class="ui-li-count" id="nb20Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=21">Sunset<span class="ui-li-count" id="nb21Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=22">Central Market<span class="ui-li-count" id="nb22Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=23">Richmond/Presidio<span class="ui-li-count" id="nb23Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=24">Treasure Island<span class="ui-li-count" id="nb24Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=25">Napa Valley<span class="ui-li-count" id="nb25Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=26">East Bay<span class="ui-li-count" id="nb26Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=27">Sacramento<span class="ui-li-count" id="nb27Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=28">Monterey<span class="ui-li-count" id="nb28Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=29">Sausalito/Marin<span class="ui-li-count" id="nb29Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=30">SFO Area<span class="ui-li-count" id="nb30Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=31">Silicon Valley<span class="ui-li-count" id="nb31Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=32">Wine Country<span class="ui-li-count" id="nb32Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=33">Central Valley<span class="ui-li-count" id="nb33Count"> </span></a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
 
 <script src="./js/jquery/dist/jquery.js"></script>
 
@@ -269,12 +319,15 @@
 
 <script type="text/javascript"     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDeAoBiPUncBuyH5-efc2csHqJcAHIn50E&sensor=false"></script>
 
-
 </body>
 <script>
 $(document).ready(function(e) {
    //$( "#date" ).datepicker();
+    checkDatesInBookmarks();
     initPage();
+    document.addEventListener("deviceready", onDeviceReady, false);
+    //alert('!!!');
+
 
 
 

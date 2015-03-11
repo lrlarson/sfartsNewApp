@@ -10,7 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#rgbrgb" />
+    <preference name="StatusBarBackgroundColor" value="#cccccc" />
     <preference name="Fullscreen" value="false" />
     <preference name="Orientation" value="default" />
     <!-- for android-->
@@ -19,6 +19,7 @@
     <preference name="BackupWebStorage" value="local"/>
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
+        <param name="android-package" value="org.apache.cordova.GeoBroker" />
     </feature>
 
 

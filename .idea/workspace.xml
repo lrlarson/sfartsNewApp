@@ -1,9 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="" />
+    <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/neighborhood.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/xcuserdata/lrlarson.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/de.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/es.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/se.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/sim.applescript" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/amazon/CordovaLocationListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/amazon/GPSListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/amazon/GeoBroker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/amazon/NetworkListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/windows8/GeolocationProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.device/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/.fetch.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/.fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Classes/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.geolocation/CDVLocation.h" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.geolocation/CDVLocation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.h" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.geolocation/CDVLocation.m" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.geolocation/CDVLocation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.m" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.h" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.m" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.statusbar/CDVStatusBar.h" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.statusbar/CDVStatusBar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/ios/CDVStatusBar.h" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/ios/CDVStatusBar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Plugins/org.apache.cordova.statusbar/CDVStatusBar.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/ios/CDVStatusBar.m" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/ios/CDVStatusBar.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/lrlarson.xcuserdatad/xcschemes/CordovaLib.xcscheme" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/lrlarson.xcuserdatad/xcschemes/CordovaLib.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/firefoxos/GeolocationProxy.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/firefoxos/GeolocationProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Classes/MainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/src/android/NetworkManager.java" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/src/android/NetworkManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/src/firefoxos/NetworkProxy.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/src/firefoxos/NetworkProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/RELEASENOTES.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SFArts-Express.iml" afterPath="$PROJECT_DIR$/.idea/SFArts-Express.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcshareddata/SFArts-Express.xccheckout" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcshareddata/SFArts-Express.xccheckout" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/xcuserdata/lrlarson.xcuserdatad/xcschemes/SFArts-Express.xcscheme" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/xcuserdata/lrlarson.xcuserdatad/xcschemes/SFArts-Express.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/wp/SplashScreen.cs" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/src/wp/SplashScreen.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/android/StatusBar.java" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/src/android/StatusBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/closeToYou.html" afterPath="$PROJECT_DIR$/platforms/ios/www/closeToYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/closeToYou.html" afterPath="$PROJECT_DIR$/www/closeToYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/emulate" afterPath="$PROJECT_DIR$/platforms/ios/cordova/emulate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/fastclick.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/de/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/de/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/es/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/es/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/pl/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/pl/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/de/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/de/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/es/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/es/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/fr/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/fr/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/it/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/it/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/ja/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/ja/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/ko/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/ko/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/pl/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/pl/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/zh/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/doc/zh/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/doc/index.md" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/doc/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-device" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-device" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-emulator" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/install-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/jquery-ui-1.10.4.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/mapDisplay2.html" afterPath="$PROJECT_DIR$/platforms/ios/www/mapDisplay2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/mapDisplay2.html" afterPath="$PROJECT_DIR$/www/mapDisplay2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.network-information/www/network.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.network-information/www/network.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/www/network.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/www/network.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/newApp.js" afterPath="$PROJECT_DIR$/www/js/newApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/data/new_V4.cfc" afterPath="$PROJECT_DIR$/platforms/ios/www/data/new_V4.cfc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/data/new_V4.cfc" afterPath="$PROJECT_DIR$/www/data/new_V4.cfc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/package.json" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.network-information/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.splashscreen/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/plugin.xml" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/run" afterPath="$PROJECT_DIR$/platforms/ios/cordova/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.statusbar/www/statusbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/version" afterPath="$PROJECT_DIR$/platforms/ios/cordova/version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SFArts-Express.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,70 +283,85 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="SFArts-Express" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74550486" vertical-offset="3496" max-vertical-offset="4320">
-              <caret line="269" column="135" selection-start-line="269" selection-start-column="135" selection-end-line="269" selection-end-column="135" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="325" column="28" selection-start-line="325" selection-start-column="28" selection-end-line="325" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1406145464000" expanded="true" signature="12883:12909" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13119:13143" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13168:13195" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13221:13293" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13344:13443" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13416:13443" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13470:13480" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13505:13523" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13548:13565" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13590:13628" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13653:13667" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13692:13706" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13731:13745" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13770:13781" placeholder="### ... ###" />
-                <marker date="1406145464000" expanded="true" signature="13835:13930" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17318:17344" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17554:17578" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17603:17630" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17656:17728" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17779:17878" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17905:17915" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17940:17958" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="17983:18000" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18025:18063" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18088:18102" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18127:18141" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18166:18180" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18205:18216" placeholder="### ... ###" />
+                <marker date="1417031121000" expanded="true" signature="18270:18365" placeholder="### ... ###" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newApp.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+      <file leaf-file-name="thisWeekend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/thisWeekend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="60" max-vertical-offset="14400">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <marker date="1406145179000" expanded="false" signature="6249:6283" placeholder="..." />
-                <marker date="1406145179000" expanded="false" signature="6368:6383" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapDisplay2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/mapDisplay2.html">
+      <file leaf-file-name="neighborhood.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/neighborhood.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newApp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1417051275000" expanded="false" signature="8064:8098" placeholder="..." />
+                <marker date="1417051275000" expanded="false" signature="8183:8198" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.serializecfjson-0.2.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/jquery.serializecfjson-0.2.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="293" selection-start-line="0" selection-start-column="293" selection-end-line="0" selection-end-column="293" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_V4.cfc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/data/new_V4.cfc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,38 +374,34 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/js/min/newApp-ck.js" />
-        <option value="$PROJECT_DIR$/www/editorial.html" />
         <option value="$PROJECT_DIR$/www/closeToYou.html" />
         <option value="$PROJECT_DIR$/www/mapDisplay2.html" />
-        <option value="$PROJECT_DIR$/www/eventsByDateDetail.html" />
-        <option value="$PROJECT_DIR$/www/thisWeekend.html" />
-        <option value="$PROJECT_DIR$/www/searchReturn.html" />
-        <option value="$PROJECT_DIR$/www/todaysEvents.html" />
-        <option value="$PROJECT_DIR$/www/eventFinalDetail.html" />
-        <option value="$PROJECT_DIR$/www/css/app.css" />
-        <option value="$PROJECT_DIR$/www/bookmarkedEvents.html" />
-        <option value="$PROJECT_DIR$/www/editorialFinalDetail.html" />
-        <option value="$PROJECT_DIR$/www/byDateEventSummary.html" />
-        <option value="$PROJECT_DIR$/www/js/bourbonexample.js" />
-        <option value="$PROJECT_DIR$/www/css/jquery-mobile-struct-min.css" />
-        <option value="$PROJECT_DIR$/www/js/jquery-mobile-1.4.3.js" />
-        <option value="$PROJECT_DIR$/www/js/jquery.ui.core.js" />
+        <option value="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/newApp.js" />
+        <option value="$PROJECT_DIR$/www/neighborhood.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/newApp.js" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="36" />
+    <option name="y" value="46" />
     <option name="width" value="1680" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -147,7 +427,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,7 +474,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,33 +489,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SFArts-Express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SFArts-Express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.apache.cordova.geolocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="preferences.intentionPowerPack" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.4969988" />
     <property name="options.searchVisible" value="true" />
@@ -243,39 +506,23 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="showpo&#9;null&#9;null&#10;deviceread&#9;null&#9;null&#10;alert&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www" />
+      <recent name="$PROJECT_DIR$/www/plugins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/js" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -285,13 +532,31 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -301,31 +566,41 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="" />
       <created>1404141320472</created>
+      <option name="number" value="Default" />
       <updated>1404141320472</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1426039329708</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1426039329708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="36" width="1680" height="1000" extended-state="0" />
+    <frame x="0" y="46" width="1680" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12330317" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2239819" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -340,498 +615,436 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <marker date="1404845985000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3435">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1406145464000" expanded="true" signature="12883:12909" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13119:13143" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13168:13195" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13221:13293" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13344:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13416:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13470:13480" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13505:13523" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13548:13565" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13590:13628" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13653:13667" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13692:13706" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13731:13745" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13770:13781" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13835:13930" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17318:17344" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17554:17578" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17603:17630" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17656:17728" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17779:17878" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17905:17915" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17940:17958" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17983:18000" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18025:18063" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18088:18102" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18127:18141" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18166:18180" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18205:18216" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18270:18365" placeholder="### ... ###" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/editorial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="990">
+        <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="12795">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
-            <marker date="1406145179000" expanded="false" signature="6249:6283" placeholder="..." />
-            <marker date="1406145179000" expanded="false" signature="6368:6383" placeholder="..." />
+            <marker date="1417051275000" expanded="false" signature="8064:8098" placeholder="..." />
+            <marker date="1417051275000" expanded="false" signature="8183:8198" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/mapDisplay2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <marker date="1404845985000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3435">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1406145464000" expanded="true" signature="12883:12909" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13119:13143" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13168:13195" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13221:13293" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13344:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13416:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13470:13480" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13505:13523" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13548:13565" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13590:13628" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13653:13667" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13692:13706" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13731:13745" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13770:13781" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13835:13930" placeholder="### ... ###" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/editorial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="990">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="12795">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-          <folding>
-            <marker date="1406145179000" expanded="false" signature="6249:6283" placeholder="..." />
-            <marker date="1406145179000" expanded="false" signature="6368:6383" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/mapDisplay2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="780">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <marker date="1404845985000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="3435">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1406145464000" expanded="true" signature="12883:12909" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13119:13143" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13168:13195" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13221:13293" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13344:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13416:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13470:13480" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13505:13523" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13548:13565" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13590:13628" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13653:13667" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13692:13706" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13731:13745" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13770:13781" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13835:13930" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17318:17344" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17554:17578" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17603:17630" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17656:17728" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17779:17878" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17905:17915" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17940:17958" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17983:18000" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18025:18063" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18088:18102" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18127:18141" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18166:18180" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18205:18216" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18270:18365" placeholder="### ... ###" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="12735">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1406145179000" expanded="false" signature="6249:6283" placeholder="..." />
-            <marker date="1406145179000" expanded="false" signature="6368:6383" placeholder="..." />
+            <marker date="1417051275000" expanded="false" signature="8064:8098" placeholder="..." />
+            <marker date="1417051275000" expanded="false" signature="8183:8198" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <marker date="1404845985000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/min/newApp-ck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2424" selection-start-line="0" selection-start-column="2424" selection-end-line="0" selection-end-column="2424" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.ui.datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728" vertical-offset="192" max-vertical-offset="1425">
+        <state vertical-scroll-proportion="0.33272728">
           <caret line="33" column="214" selection-start-line="33" selection-start-column="214" selection-end-line="33" selection-end-column="214" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/searchReturn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="690">
+        <state vertical-scroll-proportion="-23.125">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/editorial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1095">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="131" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/todaysEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="795">
+        <state vertical-scroll-proportion="-15.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1080">
-          <caret line="58" column="10" selection-start-line="49" selection-start-column="3" selection-end-line="58" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/editorialFinalDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="825">
+        <state vertical-scroll-proportion="0.0">
           <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="660">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/thisWeekend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="675">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/byDateEventSummary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="750">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/jquery-mobile-struct-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="55980">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3726" column="1" selection-start-line="3726" selection-start-column="1" selection-end-line="3726" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery-mobile-1.4.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.ui.core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4091" max-vertical-offset="4875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="319" column="13" selection-start-line="319" selection-start-column="13" selection-end-line="319" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="885">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <marker date="1404845985000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8480663" vertical-offset="2786" max-vertical-offset="3510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/RELEASENOTES.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.57894737" vertical-offset="418" max-vertical-offset="1140">
+        <state vertical-scroll-proportion="-0.57894737">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="140.28">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/newTheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5205047">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="22" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/mapDisplay2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/xml/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4787234">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/ios.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/thisWeekend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+    <entry file="file://$PROJECT_DIR$/www/neighborhood.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="60" max-vertical-offset="14400">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <marker date="1406145179000" expanded="false" signature="6249:6283" placeholder="..." />
-            <marker date="1406145179000" expanded="false" signature="6368:6383" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.serializecfjson-0.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="293" selection-start-line="0" selection-start-column="293" selection-end-line="0" selection-end-column="293" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/data/new_V4.cfc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74550486" vertical-offset="3496" max-vertical-offset="4320">
-          <caret line="269" column="135" selection-start-line="269" selection-start-column="135" selection-end-line="269" selection-end-column="135" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="325" column="28" selection-start-line="325" selection-start-column="28" selection-end-line="325" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1406145464000" expanded="true" signature="12883:12909" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13119:13143" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13168:13195" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13221:13293" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13344:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13416:13443" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13470:13480" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13505:13523" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13548:13565" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13590:13628" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13653:13667" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13692:13706" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13731:13745" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13770:13781" placeholder="### ... ###" />
-            <marker date="1406145464000" expanded="true" signature="13835:13930" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17318:17344" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17554:17578" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17603:17630" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17656:17728" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17779:17878" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17905:17915" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17940:17958" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="17983:18000" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18025:18063" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18088:18102" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18127:18141" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18166:18180" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18205:18216" placeholder="### ... ###" />
+            <marker date="1417031121000" expanded="true" signature="18270:18365" placeholder="### ... ###" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1417051275000" expanded="false" signature="8064:8098" placeholder="..." />
+            <marker date="1417051275000" expanded="false" signature="8183:8198" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

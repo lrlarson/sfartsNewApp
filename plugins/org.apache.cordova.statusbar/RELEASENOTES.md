@@ -34,3 +34,32 @@
 * CB-6264 minor formatting issue
 * Update docs with recent WP changes, remove 'clear' from the loist of named colors in documentation
 * CB-6513 - Statusbar plugin for Android is not compiling
+
+### 0.1.7 (Aug 06, 2014)
+* Add LICENSE and NOTICE
+* Update statusbar.js
+* Update backgroundColorByHexString function
+* ios: Use a persistent callbackId instead of calling sendJs
+* CB-6626 ios: Add a JS event for tapping on statusbar
+* ios: Fix hide to adjust webview's frame only when status bar is not overlaying webview
+* CB-6127 Updated translations for docs
+* android: Fix StatusBar.initialize() not running on UI thread
+
+### 0.1.8 (Sep 17, 2014)
+* CB-7549 [StatusBar][iOS 8] Landscape issue
+* CB-7486 Remove StatusBarBackgroundColor intial preference (black background) so background will be initially transparent
+* Renamed test dir, added nested plugin.xml
+* added documentation for manual tests, moved background color test below overlay test
+* CB-7195 ported statusbar tests to framework
+
+### 0.1.9 (Dec 02, 2014)
+* Fix onload attribute within <feature> to be a <param>
+* CB-8010 - Statusbar colour does not change to orange
+* added checks for running on windows when StatusBar is NOT available
+* CB-7986 Add cordova-plugin-statusbar support for **Windows Phone 8.1**
+* CB-7977 Mention `deviceready` in plugin docs
+* CB-7979 Each plugin doc should have a ## Installation section
+* Inserting leading space after # for consistency
+* CB-7549 - (Re-fix) `StatusBar` **iOS 8** Landscape issue (closes #15)
+* CB-7700 cordova-plugin-statusbar documentation translation: cordova-plugin-statusbar
+* CB-7571 Bump version of nested plugin to match parent plugin

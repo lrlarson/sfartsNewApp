@@ -1,21 +1,34 @@
-//var dataHost = "http://localhost:8500/SFArts_newApp/data/new_V4.cfc";
+//var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var myGlobalLocation = '';
 var globalTestLocation = '';
 var htmlContent = '';
-getLocation();
+
+//getLocation();
 
 
 
-document.addEventListener("deviceready", onDeviceReady, false);
+//document.addEventListener("deviceready", onDeviceReady, false);
+
+$(function(){
+    document.addEventListener("deviceready", onDeviceReady, false);
+});
+
 function onDeviceReady() {
+    var devicePlatform = device.platform;
     checkConnection();
-    navigator.geolocation.getCurrentPosition(function(position){
-        //alert('gettingPosition');
-        initialize(position.coords.latitude,position.coords.longitude,lat_lon);
-
-
-    });
+    //alert('deviceReady');
+    //navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    var options = { timeout: 31000, enableHighAccuracy: true, maximumAge: 90000 };
+    if (devicePlatform == 'Android'){
+        //alert('android');
+        navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
+    }
+    else
+        {
+           // alert('IOS')
+            navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        }
 
 }
 
@@ -31,8 +44,50 @@ function onResume() {
 
 document.addEventListener("offline", onOffline, false);
 
+function initPage(){
+    checkDatesInBookmarks();
+    console.log('initPage');
+    currentDate = moment().format('MM/DD/YYYY');
+    getEventsForToday(currentDate);
+    getEventsForThisWeekend();
+    getEventHighlights();
+
+    getBookMarksCount();
+    getNeighborhoodCount();
+
+}
+
+
+function checkDatesInBookmarks() {
+    var now = moment();
+    var nowMoment = moment(now, 'MM-DD-YYYY');
+
+    retrievedObject = localStorage.getItem('events');
+
+    if (retrievedObject) {
+        var jsonString = JSON.parse(retrievedObject);
+        length = jsonString.length;
+        for (var i = 0; i < length; i++) {
+            var endDate = jsonString[i].end_date;
+            var event_num = jsonString[i].event_num;
+            var endDateMoment = moment(endDate, 'MM-DD-YYYY');
+            if (nowMoment.diff(endDate, 'days') * -1 >= 0) {} else {
+                //remove from storage
+
+                jsonString.splice(i, 1);
+                console.log(jsonString);
+                localStorage.events = JSON.stringify(jsonString);
+                length--;
+            }
+        }
+
+    }
+}
+
+
+
 function onOffline() {
-    alert('Sorry -- it appears that you have lost your internet connection.');
+    alert('Sorry -- it appears that you have lost your internet connection, and we need it.');
 }
 
 
@@ -85,28 +140,32 @@ function getBookMarksCount() {
 //map page
 $(document).on('pageshow', "#pageMap",function () {
     //var map;
+    //getLocation();
+    //alert('in pagemap')
     var parameters = $(this).data("url").split("?")[1];
     lat_lon = parameters.replace("eventLatLong=","");
-    if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position){
-            //alert('gettingPosition');
-            initialize(position.coords.latitude,position.coords.longitude,lat_lon);
-
+    initialize(lat_lon);
+    //navigator.geolocation.getCurrentPosition(onSuccess,onError);
 
         });
 
-    }
-});
+var onSuccess = function(position) {
+    //alert('success');
+    myGlobalLocation = position;
+};
 
 
-function initialize(lat,lng,eventLatlng) {
+
+function initialize(eventLatlng) {
 
     //create proper lat lon object
+    //alert('success');
     var bits = eventLatlng.split(/,\s*/);
     point = new google.maps.LatLng(parseFloat(bits[0]),parseFloat(bits[1]));
 
 
-    var latlng = new google.maps.LatLng(lat, lng);
+    var latlng = new google.maps.LatLng(myGlobalLocation.coords.latitude, myGlobalLocation.coords.longitude);
+
     var myOptions = {
         zoom: 13,
         center: point,
@@ -130,8 +189,16 @@ function initialize(lat,lng,eventLatlng) {
     google.maps.event.trigger(map, 'resize');
 }
 
+function onError(error){
+
+    console.log('code: '    + error.code    + '\n' +
+    'message: ' + error.message + '\n');
+    //navigator.geolocation.getCurrentPosition(onSuccess, onError);
+}
+
 
 $(document).on('pagebeforeshow', "#page",function () {
+    checkDatesInBookmarks();
     getBookMarksCount();
 });
 
@@ -157,7 +224,7 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
             currentMethod = 'getPublicArtByLocation';
             $('#scope').html('Public Art')
     }
-    getLocation();
+    //getLocation();
     $.ajax({
         url: dataHost,
         data: {
@@ -175,7 +242,7 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
             cleanEvents = d.DATA;
             htmlContent = '';
             //console.log(cleanEvents);
-            p1 = new LatLon(Geo.parseDMS(myGlobalLocation.lat()),Geo.parseDMS(myGlobalLocation.lng()));
+            p1 = new LatLon(Geo.parseDMS(myGlobalLocation.coords.latitude),Geo.parseDMS(myGlobalLocation.coords.longitude));
 
             if (cleanEvents.length > 0){
                 for(i=0;i<cleanEvents.length;i++){
@@ -475,6 +542,62 @@ $(document).on('pagebeforeshow', "#thisWeekendsEventsList",function () {
 });
 
 
+//this neighborhood events
+$(document).on('pagebeforeshow', "#neighborhoodEventList",function () {
+    var parameters = $(this).data("url").split("?")[1];
+    nb = parameters.replace("nb=","");
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getEventsForNeighborhood',
+            returnFormat: 'json',
+            neighborhoodNew: nb
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+
+            console.log('neighborhood');
+            console.log(workReturn);
+
+
+            var neighborhoodEventsTemplateScript = $('#neighborhoodEventsTemplate').html();
+            neighborhoodTemplate= Handlebars.compile(neighborhoodEventsTemplateScript);
+            $('#neighborhoodTemplate').empty();
+            $('#neighborhoodEvents').append(neighborhoodTemplate(workReturn));
+            $("#neighborhoodEvents").listview().listview('refresh');
+
+            $('#neighborhood').html(workReturn.data[0].neighborhood);
+        }
+
+    });
+
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getNeighborhoodName',
+            returnFormat: 'json',
+            neighborhoodNew: nb
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            dispReturn = $.serializeCFJSON({
+                data: d
+            });
+            $('#neighborhood').html(dispReturn.data[0].Neighborhood);
+
+        }
+    });
+
+});
+
+
 
 //editorial summary page
 $(document).on('pagebeforeshow', "#editorialPageSummary",function () {
@@ -597,6 +720,7 @@ function initPage(){
     getEventsForThisWeekend();
     getEventHighlights();
     getBookMarksCount();
+    getNeighborhoodCount();
 }
 
 
@@ -666,6 +790,122 @@ function getDispCountForSpecDate(targetDate){
     });
 }
 
+function getNeighborhoodCount(){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getAllLiveEventsNeighborhood',
+            returnFormat: 'json'
+
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+            //console.log(workReturn);
+           // $('#todayCount').html(workReturn.data.length);
+            dispArray = [1,2,3,4,5,6,8,11,12,13,14,15,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33];
+            count=[];
+            $.each( dispArray , function( index, value ) {
+                internalCount = 0;
+                for (i=0;i < workReturn.data.length;i++){
+                    if (workReturn.data[i].neighborhoodnew == value ){
+                        internalCount += 1;
+                    }
+                }
+                switch(value){
+                    case 1:
+                        $('#nb1Count').html(internalCount);
+                        break;
+                    case 2:
+                        $('#nb2Count').html(internalCount);
+                        break;
+                    case 3:
+                        $('#nb3Count').html(internalCount);
+                        break;
+                    case 4:
+                        $('#nb4Count').html(internalCount);
+                        break;
+                    case 5:
+                        $('#nb5Count').html(internalCount);
+                        break;
+                    case 6:
+                        $('#nb6Count').html(internalCount);
+                        break;
+                    case 8:
+                        $('#nb8Count').html(internalCount);
+                        break;
+                    case 11:
+                        $('#nb11Count').html(internalCount);
+                        break;
+                    case 12:
+                        $('#nb12Count').html(internalCount);
+                        break;
+                    case 13:
+                        $('#nb13Count').html(internalCount);
+                        break;
+                    case 14:
+                        $('#nb14Count').html(internalCount);
+                        break;
+                    case 15:
+                        $('#nb15Count').html(internalCount);
+                        break;
+                    case 18:
+                        $('#nb18Count').html(internalCount);
+                        break;
+                    case 19:
+                        $('#nb19Count').html(internalCount);
+                        break;
+                    case 20:
+                        $('#nb20Count').html(internalCount);
+                        break;
+                    case 21:
+                        $('#nb21Count').html(internalCount);
+                        break;
+                    case 22:
+                        $('#nb22Count').html(internalCount);
+                        break;
+                    case 23:
+                        $('#nb23Count').html(internalCount);
+                        break;
+                    case 24:
+                        $('#nb24Count').html(internalCount);
+                        break;
+                    case 25:
+                        $('#nb25Count').html(internalCount);
+                        break;
+                    case 26:
+                        $('#nb26Count').html(internalCount);
+                        break;
+                    case 27:
+                        $('#nb27Count').html(internalCount);
+                        break;
+                    case 28:
+                        $('#nb28Count').html(internalCount);
+                        break;
+                    case 29:
+                        $('#nb29Count').html(internalCount);
+                        break;
+                    case 30:
+                        $('#nb30Count').html(internalCount);
+                        break;
+                    case 31:
+                        $('#nb31Count').html(internalCount);
+                        break;
+                    case 32:
+                        $('#nb32Count').html(internalCount);
+                        break;
+                    case 33:
+                        $('#nb33Count').html(internalCount);
+                        break;
+                }
+            });
+        }
+    });
+}
 
 function getEventsForToday(currentDate){
     $.ajax({
@@ -680,17 +920,17 @@ function getEventsForToday(currentDate){
         dataType: "json",
         async: true,
         success: function (d, r, o) {
-            workReturn = $.serializeCFJSON({
+            workReturn1 = $.serializeCFJSON({
                 data: d
             });
             //console.log(workReturn);
-            $('#todayCount').html(workReturn.data.length);
+            $('#todayCount').html(workReturn1.data.length);
             dispArray = [1,2,3,4,5,6,7,8,9,10];
             count=[];
             $.each( dispArray , function( index, value ) {
                 internalCount = 0;
-                for (i=0;i < workReturn.data.length;i++){
-                     if (workReturn.data[i].id == value || workReturn.data[i].id2 == value){
+                for (i=0;i < workReturn1.data.length;i++){
+                     if (workReturn1.data[i].id == value || workReturn1.data[i].id2 == value){
                          internalCount += 1;
                     }
                 }
@@ -932,12 +1172,12 @@ function getLocation(){
     else{alert('This browser does not support location services');
     }
 }
-
+/*
 var myErrorHandler = function(statusCode, statusMsg)
 {
     alert('Status: ' + statusCode + ', ' + statusMsg);
 }
-
+*/
 
 document.addEventListener('deviceready', function () {
     if (navigator.notification) { // Override default HTML alert with native dialog

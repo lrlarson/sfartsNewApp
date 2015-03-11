@@ -784,6 +784,24 @@ ORDER BY Event_Table.Date_Difference
            <cfreturn  XXYYXX>
      </cffunction>
     
+    <cffunction name="getEventsForNeighborhood" access="remote"  returntype="Any" >
+    	<cfargument name="neighborhoodNew" type="numeric" >
+    		<cfstoredproc datasource="sfarts_CFX" procedure="proc_getEventsForNeighborhoodMobile">
+    			<cfprocparam dbvarname="@neighborhoodNew" value="#neighborhoodNew#" cfsqltype="cf_sql_integer">
+    			<cfprocresult name="neighborhoodEvents" >
+    		</cfstoredproc>
+		<cfreturn neighborhoodEvents>
+    </cffunction>
+    
+    <cffunction name="getNeighborhoodName" access="remote" returntype="Any" >
+    	<cfargument name="neighborhoodNew" type="numeric" >
+    		<cfstoredproc procedure="procGetNeighborhoodNameNew" datasource="sfarts_CFX" >
+    		<cfprocparam  dbvarname="@id" cfsqltype="CF_SQL_INTEGER" value="#neighborhoodNew#">
+    		<cfprocresult name="neighborhood" >
+    </cfstoredproc>
+    <cfreturn neighborhood>    
+    </cffunction>
+    
     
     <cffunction name="getEventsForWeekendNoDisp_mobile"  access="remote" returntype="any">
    <CFSET todaynum=#DayOfWeek(now())#>
@@ -856,6 +874,13 @@ ORDER BY Event_Table.Date_Difference
     
     <cffunction name="getAllLiveEvents" access="remote" returntype="any" >
     	<cfstoredproc datasource="SFARTS_CFX" procedure="[procGetAllLiveEventsV4_PAGED_intRow]">
+        <cfprocresult name="recordset1">
+    </cfstoredproc>
+      <cfreturn recordset1>
+    </cffunction>
+    
+    <cffunction name="getAllLiveEventsNeighborhood" access="remote" returntype="any" >
+    	<cfstoredproc datasource="SFARTS_CFX" procedure="[procGetLiveEventsForNeighborhood]">
         <cfprocresult name="recordset1">
     </cfstoredproc>
       <cfreturn recordset1>

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>778500A4-FF53-416D-901B-52AAC5B2D709</string>
+	<string>E9677D48-5378-4CA5-8477-59DA71507A21</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SFArts-Express</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F43DA433-DF51-4271-B2F4-EF640D8E7C8F</key>
+		<key>5412FDA4727930D12485485136ED3695A79EC5F9</key>
 		<string>https://github.com/lrlarson/sfartsNewApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace</string>
+	<string>platforms/ios/SFArts-Express.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F43DA433-DF51-4271-B2F4-EF640D8E7C8F</key>
+		<key>5412FDA4727930D12485485136ED3695A79EC5F9</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/lrlarson/sfartsNewApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F43DA433-DF51-4271-B2F4-EF640D8E7C8F</string>
+	<string>5412FDA4727930D12485485136ED3695A79EC5F9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F43DA433-DF51-4271-B2F4-EF640D8E7C8F</string>
+			<string>5412FDA4727930D12485485136ED3695A79EC5F9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SFArts-Express</string>
 		</dict>

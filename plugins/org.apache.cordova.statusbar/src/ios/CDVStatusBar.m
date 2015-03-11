@@ -70,6 +70,11 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
 @end
 
 
+@interface CDVStatusBar () <UIScrollViewDelegate>
+- (void)fireTappedEvent;
+- (void)updateIsVisible:(BOOL)visible;
+@end
+
 @implementation CDVStatusBar
 
 - (id)settingForKey:(NSString*)key
@@ -81,9 +86,7 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
 {
     if ([keyPath isEqual:@"statusBarHidden"]) {
         NSNumber* newValue = [change objectForKey:NSKeyValueChangeNewKey];
-        BOOL boolValue = [newValue boolValue];
-
-        [self.commandDelegate evalJs:[NSString stringWithFormat:@"StatusBar.isVisible = %@;", boolValue? @"false" : @"true" ]];
+        [self updateIsVisible:![newValue boolValue]];
     }
 }
 
@@ -120,26 +123,70 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
     if ([self settingForKey:setting]) {
         [self setStatusBarStyle:[self settingForKey:setting]];
     }
+
+    // blank scroll view to intercept status bar taps
+    self.webView.scrollView.scrollsToTop = NO;
+    UIScrollView *fakeScrollView = [[UIScrollView alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    fakeScrollView.delegate = self;
+    fakeScrollView.scrollsToTop = YES;
+    [self.viewController.view addSubview:fakeScrollView]; // Add scrollview to the view heirarchy so that it will begin accepting status bar taps
+    [self.viewController.view sendSubviewToBack:fakeScrollView]; // Send it to the very back of the view heirarchy
+    fakeScrollView.contentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height * 2.0f); // Make the scroll view longer than the screen itself
+    fakeScrollView.contentOffset = CGPointMake(0.0f, UIScreen.mainScreen.bounds.size.height); // Scroll down so a tap will take scroll view back to the top
 }
+
+- (void)onReset {
+    _eventsCallbackId = nil;
+}
+
+- (void)fireTappedEvent {
+    if (_eventsCallbackId == nil) {
+        return;
+    }
+    NSDictionary* payload = @{@"type": @"tap"};
+    CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:payload];
+    [result setKeepCallbackAsBool:YES];
+    [self.commandDelegate sendPluginResult:result callbackId:_eventsCallbackId];
+}
+
+- (void)updateIsVisible:(BOOL)visible {
+    if (_eventsCallbackId == nil) {
+        return;
+    }
+    CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:visible];
+    [result setKeepCallbackAsBool:YES];
+    [self.commandDelegate sendPluginResult:result callbackId:_eventsCallbackId];
+}
+
 
 - (void) _ready:(CDVInvokedUrlCommand*)command
 {
-    // set the initial value
-    [self.commandDelegate evalJs:[NSString stringWithFormat:@"StatusBar.isVisible = %@;", [UIApplication sharedApplication].statusBarHidden? @"false" : @"true" ]];
+    _eventsCallbackId = command.callbackId;
+    [self updateIsVisible:![UIApplication sharedApplication].statusBarHidden];
 }
 
 - (void) initializeStatusBarBackgroundView
 {
     CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
-    if (UIDeviceOrientationIsLandscape(self.viewController.interfaceOrientation)) {
-        // swap width and height. set origin to zero
-        statusBarFrame = CGRectMake(0, 0, statusBarFrame.size.height, statusBarFrame.size.width);
-    }
+    statusBarFrame = [self invertFrameIfNeeded:statusBarFrame orientation:self.viewController.interfaceOrientation];
 
     _statusBarBackgroundView = [[UIView alloc] initWithFrame:statusBarFrame];
     _statusBarBackgroundView.backgroundColor = _statusBarBackgroundColor;
     _statusBarBackgroundView.autoresizingMask = (UIViewAutoresizingFlexibleWidth  | UIViewAutoresizingFlexibleBottomMargin);
     _statusBarBackgroundView.autoresizesSubviews = YES;
+}
+
+- (CGRect) invertFrameIfNeeded:(CGRect)rect orientation:(UIInterfaceOrientation)orientation {
+    // landscape is where (width > height). On iOS < 8, we need to invert since frames are
+    // always in Portrait context
+    if (UIDeviceOrientationIsLandscape(orientation) && (rect.size.width < rect.size.height) ) {
+        CGFloat temp = rect.size.width;
+        rect.size.width = rect.size.height;
+        rect.size.height = temp;
+        rect.origin = CGPointZero;
+    }
+    
+    return rect;
 }
 
 - (void) setStatusBarOverlaysWebView:(BOOL)statusBarOverlaysWebView
@@ -163,18 +210,13 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
     } else {
 
         CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
+        statusBarFrame = [self invertFrameIfNeeded:statusBarFrame orientation:self.viewController.interfaceOrientation];
 
         [self initializeStatusBarBackgroundView];
 
         CGRect frame = self.webView.frame;
-
-        if (UIDeviceOrientationIsLandscape(self.viewController.interfaceOrientation)) {
-            frame.origin.y = statusBarFrame.size.width;
-            frame.size.height -= statusBarFrame.size.width;
-        } else {
-            frame.origin.y = statusBarFrame.size.height;
-            frame.size.height -= statusBarFrame.size.height;
-        }
+        frame.origin.y = statusBarFrame.size.height;
+        frame.size.height -= statusBarFrame.size.height;
 
         self.webView.frame = frame;
         [self.webView.superview addSubview:_statusBarBackgroundView];
@@ -327,11 +369,12 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
 
             CGRect frame = self.webView.frame;
             frame.origin.y = 0;
-
-            if (UIDeviceOrientationIsLandscape(self.viewController.interfaceOrientation)) {
-                frame.size.height += statusBarFrame.size.width;
-            } else {
-                frame.size.height += statusBarFrame.size.height;
+            if (!self.statusBarOverlaysWebView) {
+                if (UIDeviceOrientationIsLandscape(self.viewController.interfaceOrientation)) {
+                    frame.size.height += statusBarFrame.size.width;
+                } else {
+                    frame.size.height += statusBarFrame.size.height;
+                }
             }
 
             self.webView.frame = frame;
@@ -370,6 +413,7 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
             self.viewController.view.frame = [[UIScreen mainScreen] bounds];
 
             CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
+            statusBarFrame = [self invertFrameIfNeeded:statusBarFrame orientation:self.viewController.interfaceOrientation];
 
             if (!self.statusBarOverlaysWebView) {
 
@@ -377,16 +421,9 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
                 // from the current one. Therefore we need to expand the statusBarBackgroundView as well to the
                 // statusBar's current size
                 CGRect sbBgFrame = _statusBarBackgroundView.frame;
-
-                if (UIDeviceOrientationIsLandscape(self.viewController.interfaceOrientation)) {
-                    frame.origin.y = statusBarFrame.size.width;
-                    frame.size.height -= statusBarFrame.size.width;
-                    sbBgFrame.size = CGSizeMake(statusBarFrame.size.height, statusBarFrame.size.width);
-                } else {
-                    frame.origin.y = statusBarFrame.size.height;
-                    frame.size.height -= statusBarFrame.size.height;
-                    sbBgFrame.size = statusBarFrame.size;
-                }
+                frame.origin.y = statusBarFrame.size.height;
+                frame.size.height -= statusBarFrame.size.height;
+                sbBgFrame.size = statusBarFrame.size;
 
                 _statusBarBackgroundView.frame = sbBgFrame;
                 [self.webView.superview addSubview:_statusBarBackgroundView];
@@ -409,5 +446,13 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
     [[UIApplication sharedApplication] removeObserver:self forKeyPath:@"statusBarHidden"];
 }
 
+
+#pragma mark - UIScrollViewDelegate
+
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView
+{
+    [self fireTappedEvent];
+    return NO;
+}
 
 @end
