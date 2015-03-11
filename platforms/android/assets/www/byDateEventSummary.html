@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<head>
+  
+
+
+
+
+</head>
+
+<body>
+<div data-role="page" id="specDateSummaryPage" >
+   
+    <div data-role="header" data-add-back-btn="true">
+        <h1 style="font-size:13px">Events<br />for <span class="targetDate"></span> </h1>
+    </div>
+    <div data-role="content" >
+        <ul data-role="listview" id="specDateSummary"> <!---inject here ---> </ul>
+
+        <script id="byDateSummaryTemplate" type="x-handlebars-template">
+            {{#each data}}
+            <li><a href="eventsByDateDetail.html?disp={{id}}&date={{dt}}">{{discipline}}<span class="ui-li-count" id="specDisp{{id}}Count"> </span></a></li>
+            {{/each}}
+         </script>
+
+
+
+
+
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

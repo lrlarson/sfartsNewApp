@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/jquery.mobile.flatui.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery-mobile-struct-min.css">
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+ <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/jquery.mobile.datepicker.css" />
+
+
+
+</head>
+<body>
+<div id="page" data-role="page">
+    <div class="topOfPage" style=" text-align:center;font-size:48px">SF/Arts</div>
+    <div class="logoText">Your Quick and Comprehensive Guide to <br />San Francisco Arts<br /></div>
+    <div data-role="content">
+        <ul data-role="listview">
+          <li><a href="#editorialPage">Calendar Highlights <span class="ui-li-count" id="highlightCount"></span></a></li>
+          <li><a href="#todayPage">Today's Events <span class="ui-li-count" id="todayCount"></span></a></li>
+            <li><a href="#weekendPage">Next Weekend's Events <span class="ui-li-count" id="weekendCount"></span> </a></li>
+            <li><a href="#keywordPage">Search by Keyword</a></li>
+            <li><a href="#specificDate">Search by Date</a></li>
+
+            <!--
+            <li><a href="#featuredPublicArt">Featured Public Art</a></li>
+            --->
+            <li><a href="#closeToYouMenu">Events Close to You</a></li>
+            <li><a href="#neighborHoodMenu">By Neighborhood</a></li>
+            <li id="bMarks"><a href="bookmarkedEvents.html">Bookmarked Events<span class="ui-li-count" id="bookCount"></span></a></li>
+
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="editorialPage" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Highlights</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+
+                <li><a href="editorial.html?disp=3">Music <span class="ui-li-count" id="high3Count"> </span></a></li>
+                <li><a href="editorial.html?disp=1">Theater  <span class="ui-li-count" id="high1Count"></span></a></li>
+                <li><a href="editorial.html?disp=2">Dance  <span class="ui-li-count" id="high2Count"></span></a></li>
+                <li><a href="editorial.html?disp=7">Museum  <span class="ui-li-count" id="high7Count"></span></a></li>
+                <li><a href="editorial.html?disp=8">Gallery  <span class="ui-li-count" id="high8Count"></span></a></li>
+                <li><a href="editorial.html?disp=6">Film/Video  <span class="ui-li-count" id="high6Count"></span></a></li>
+                <li><a href="editorial.html?disp=10">More for Less  <span class="ui-li-count" id="high10Count"></span></a></li>
+                <li><a href="editorial.html?disp=9">Children  <span class="ui-li-count" id="high9Count"></span></a></li>
+                <li><a href="editorial.html?disp=4">Literary Arts  <span class="ui-li-count" id="high4Count"></span></a></li>
+                <li><a href="editorial.html?disp=5">Festivals  <span class="ui-li-count" id="high5Count"></span></a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<div data-role="page" id="todayPage" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Today's Events</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+           
+                <li><a href="todaysEvents.html?disp=3">Music <span class="ui-li-count" id="disp3Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=1">Theater <span class="ui-li-count" id="disp1Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=2">Dance <span class="ui-li-count" id="disp2Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=7">Museums <span class="ui-li-count" id="disp7Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=8">Galleries <span class="ui-li-count" id="disp8Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=6">Film/Video <span class="ui-li-count" id="disp6Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=10">More for Less <span class="ui-li-count" id="disp10Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=9">Children <span class="ui-li-count" id="disp9Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=4">Literary Arts <span class="ui-li-count" id="disp4Count"> </span></a></li>
+                <li><a href="todaysEvents.html?disp=5">Festivals <span class="ui-li-count" id="disp5Count"> </span></a></li>
+                <!---
+                <li><a href="todaysEvents.html?disp=12">Nightlife <span class="ui-li-count"> (#arrayDispToday[12]#)</span></a></li>
+                --->
+           
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div data-role="page" id="weekendPage" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Next Weekend...</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+
+                <li><a href="thisWeekend.html?disp=3">Music <span class="ui-li-count" id="week3Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=1">Theater <span class="ui-li-count" id="week1Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=2">Dance <span class="ui-li-count" id="week2Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=7">Museums <span class="ui-li-count" id="week7Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=8">Galleries <span class="ui-li-count" id="week8Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=6">Film/Video <span class="ui-li-count" id="week6Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=10">More for Less <span class="ui-li-count" id="week10Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=9">Children <span class="ui-li-count" id="week9Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=4">Literary Arts <span class="ui-li-count" id="week4Count"> </span></a></li>
+                <li><a href="thisWeekend.html?disp=5">Festivals <span class="ui-li-count" id="week5Count"> </span></a></li>
+
+
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="keywordPage">
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Keyword</h1>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <form action="searchReturn.html" method="get" name="searchText">
+                <label >Search Term:&nbsp;</label>
+                <input type="text" name="searchText" id="searchText"  />
+                <label >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <button type="submit" value="Submit" >Search</button>
+            </form>
+        </div>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="specificDate" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>By Date</h1>
+    </div>
+
+    <div data-role="content">
+
+
+        <form action="byDateEventSummary.html" method="get">
+
+            <div data-role="fieldcontain">
+
+
+                <input type="text" data-role="date" data-inline="true" id="selectedDate" name="selectedDate">
+                <button type="submit" value="Submit" >Search Selected Date</button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="closeToYouMenu" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Nearby</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li><a href="closeToYou.html?scope=all">All Events Close to You</a></li>
+            <li><a href="closeToYou.html?scope=gallery">Gallery/Museum Events Close to You</a></li>
+            <li><a href="closeToYou.html?scope=perform">Theatre/Music/Dance Events Close to You</a></li>
+            <li><a href="closeToYou.html?scope=public">Public Art</a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="neighborHoodMenu" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>By Neighborhood</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li><a href="neighborhood.html?nb=1">Castro/Noe Valley/Upper Market <span class="ui-li-count" id="nb1Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=2">Chinatown <span class="ui-li-count" id="nb2Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=3">Civic Center/Hayes Valley   <span class="ui-li-count" id="nb3Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=4">Embarcadero/Financial District <span class="ui-li-count" id="nb4Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=5">Fisherman's Wharf<span class="ui-li-count" id="nb5Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=6">Haight-Ashbury<span class="ui-li-count" id="nb6Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=8">Bayview<span class="ui-li-count" id="nb8Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=11">Mission District/Potrero<span class="ui-li-count" id="nb11Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=12">Nob Hill<span class="ui-li-count" id="nb12Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=13">North Beach<span class="ui-li-count" id="nb13Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=14">SOMA/Yerba Buena<span class="ui-li-count" id="nb14Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=15">Union Square<span class="ui-li-count" id="nb15Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=18">Fillmore<span class="ui-li-count" id="nb18Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=19">Japantown<span class="ui-li-count" id="nb19Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=20">Marina/Pacific Heights<span class="ui-li-count" id="nb20Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=21">Sunset<span class="ui-li-count" id="nb21Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=22">Central Market<span class="ui-li-count" id="nb22Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=23">Richmond/Presidio<span class="ui-li-count" id="nb23Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=24">Treasure Island<span class="ui-li-count" id="nb24Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=25">Napa Valley<span class="ui-li-count" id="nb25Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=26">East Bay<span class="ui-li-count" id="nb26Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=27">Sacramento<span class="ui-li-count" id="nb27Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=28">Monterey<span class="ui-li-count" id="nb28Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=29">Sausalito/Marin<span class="ui-li-count" id="nb29Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=30">SFO Area<span class="ui-li-count" id="nb30Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=31">Silicon Valley<span class="ui-li-count" id="nb31Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=32">Wine Country<span class="ui-li-count" id="nb32Count"> </span></a></li>
+            <li><a href="neighborhood.html?nb=33">Central Valley<span class="ui-li-count" id="nb33Count"> </span></a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="./js/jquery/dist/jquery.js"></script>
+
+<script>
+    //reset type=date inputs to text
+    $( document ).bind( "mobileinit", function(){
+        $.mobile.page.prototype.options.degradeInputs.date = true;
+    });
+
+</script>
+
+
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/jquery-mobile-1.4.3.js"></script>
+
+<script src="https://rawgithub.com/jquery/jquery-ui/1.10.4/ui/jquery.ui.datepicker.js"></script>
+
+
+
+<script id="mobile-datepicker" src="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.js"></script>
+
+
+<script src="cordova.js"></script>
+<script src="./js/Handlebars.js"></script>
+<script src="./js/fastclick.js"></script>
+<script src="./js/jquery.serializecfjson-0.2.min.js"></script>
+<script src="./js/moment.js"></script>
+<script src="./js/newApp.js"></script>
+<script src="./js/latlon.js"></script>
+<script src="./js/geo.js"></script>
+
+
+<script type="text/javascript"     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDeAoBiPUncBuyH5-efc2csHqJcAHIn50E&sensor=false"></script>
+
+</body>
+<script>
+$(document).ready(function(e) {
+   //$( "#date" ).datepicker();
+    checkDatesInBookmarks();
+    initPage();
+    document.addEventListener("deviceready", onDeviceReady, false);
+    //alert('!!!');
+
+
+
+
+});
+</script>
+</html>
