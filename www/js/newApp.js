@@ -14,6 +14,8 @@ $(function(){
     document.addEventListener("deviceready", onDeviceReady, false);
 });
 
+
+
 function onDeviceReady() {
     var devicePlatform = device.platform;
     checkConnection();
