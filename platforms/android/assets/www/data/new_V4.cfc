@@ -8,6 +8,22 @@
 	</cffunction>
     
     
+    <cffunction name="getActiveMuseums" access="remote" returntype="Any" >
+    	<cfstoredproc procedure="procMuseumGetMuseumsActive" datasource="sfarts_CFX" >
+    	<cfprocresult name="active" >
+    	</cfstoredproc>
+    	<cfreturn active>
+    </cffunction>
+    
+    <cffunction name="getEventsForMuseum" access="remote" returntype="Any" >
+    	<cfargument name="orgNum" type="numeric" required="true" >
+    	<cfstoredproc procedure="procMuseumGetActiveEvents" datasource="sfarts_CFX"  >
+    		<cfprocparam cfsqltype="CF_SQL_INTEGER" value="#orgNum#" dbvarname="@orgNum" >
+    		<cfprocresult name="musEvents" >
+    </cfstoredproc>	
+    <cfreturn musEvents>
+    </cffunction>
+    
      <!--- this is the main date query method for testing returns ONE DISP --- UPDATED AND CORRECTED FOR SINGLE DATES--->
    <cffunction name="getPublicArtByLocation" access="remote" returntype="any">
 

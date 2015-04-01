@@ -545,6 +545,60 @@ $(document).on('pagebeforeshow', "#thisWeekendsEventsList",function () {
 
 });
 
+//events for specific museum
+$(document).on('pagebeforeshow', "#eventsForMuseum",function () {
+    var parameters = $(this).data("url").split("?")[1];
+    id = parameters.replace("id=","");
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getEventsForMuseum',
+            returnFormat: 'json',
+            orgNum: id
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+
+            console.log(workReturn);
+
+
+            var museumEventsTemplateScript = $('#museumEventsTemplate').html();
+            museumEventsTemplate= Handlebars.compile(museumEventsTemplateScript);
+            $('#museumEvents').empty();
+            $('#museumEvents').append(museumEventsTemplate(workReturn));
+            $("#museumEvents").listview().listview('refresh');
+
+            $('#museumName').html(workReturn.data[0].org_name);
+
+        }
+    });
+    /*
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getDispName',
+            returnFormat: 'json',
+            disp: disp
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            dispReturn = $.serializeCFJSON({
+                data: d
+            });
+            $('#weekendDisp').html(dispReturn.data[0].discipline);
+
+        }
+    });
+*/
+});
+
 
 //this neighborhood events
 $(document).on('pagebeforeshow', "#neighborhoodEventList",function () {
@@ -725,10 +779,38 @@ function initPage(){
     getEventHighlights();
     getBookMarksCount();
     getNeighborhoodCount();
+    getActiveMuseums();
 }
 
 
+function getActiveMuseums(){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getActiveMuseums',
+            returnFormat: 'json'
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+            console.log(workReturn);
 
+
+
+            var museumEventsTemplateScript = $('#museumTemplate').html();
+            museumEventsTemplate= Handlebars.compile(museumEventsTemplateScript);
+            $('#museumList').empty();
+            $('#museumList').append(museumEventsTemplate(workReturn));
+            $("#museumList").listview().listview('refresh');
+
+        }
+    });
+
+}
 
 function getDispCountForSpecDate(targetDate){
     $.ajax({

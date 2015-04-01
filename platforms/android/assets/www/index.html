@@ -27,6 +27,7 @@
           <li><a href="#editorialPage">Calendar Highlights <span class="ui-li-count" id="highlightCount"></span></a></li>
           <li><a href="#todayPage">Today's Events <span class="ui-li-count" id="todayCount"></span></a></li>
             <li><a href="#weekendPage">Next Weekend's Events <span class="ui-li-count" id="weekendCount"></span> </a></li>
+            <li><a href="#museumPage">Current Museum Exhibitions</a></li>
             <li><a href="#keywordPage">Search by Keyword</a></li>
             <li><a href="#specificDate">Search by Date</a></li>
 
@@ -106,6 +107,32 @@
                 --->
            
         </ul>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="museumPage" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Current Exhibitions </h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" id="museumList"><!-- inject here ---></ul>
+        <script id="museumTemplate" type="x-handlebars-template">
+            {{#each data}}
+            <li><a href="eventsForMuseum.html?id={{org_num}}">{{org_name}}</a></li>
+            {{/each}}
+        </script>
+
+
     </div>
     <div data-role="footer" data-id="allot_footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="bottom">

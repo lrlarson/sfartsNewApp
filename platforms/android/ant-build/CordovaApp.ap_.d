@@ -66,6 +66,7 @@
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/editorialFinalDetail.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/eventFinalDetail.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/eventsByDateDetail.html \
+/Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/eventsForMuseum.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/first.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/gps.png \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/index.html \
