@@ -15,6 +15,14 @@
     	<cfreturn active>
     </cffunction>
     
+     <cffunction name="getActiveMuseumsDistance" access="remote" returntype="Any" >
+    	<cfstoredproc procedure="[procGetMuseumsActiveDistance]" datasource="sfarts_CFX" >
+    	<cfprocresult name="active" >
+    	</cfstoredproc>
+    	<cfreturn active>
+    </cffunction>
+    
+    
     <cffunction name="getEventsForMuseum" access="remote" returntype="Any" >
     	<cfargument name="orgNum" type="numeric" required="true" >
     	<cfstoredproc procedure="procMuseumGetActiveEvents" datasource="sfarts_CFX"  >

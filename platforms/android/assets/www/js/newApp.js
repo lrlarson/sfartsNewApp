@@ -295,6 +295,73 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
 
 });
 
+$(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
+
+
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getActiveMuseumsDistance',
+            returnFormat: 'json'
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+
+            finalArray = new Array();
+            cleanEvents = d.DATA;
+            htmlContent = '';
+            //console.log(cleanEvents);
+            p1 = new LatLon(Geo.parseDMS(myGlobalLocation.coords.latitude),Geo.parseDMS(myGlobalLocation.coords.longitude));
+
+            if (cleanEvents.length > 0){
+                for(i=0;i<cleanEvents.length;i++){
+                    p2 =new LatLon(Geo.parseDMS(cleanEvents[i][3]),Geo.parseDMS(cleanEvents[i][4]));
+                    instanceDistance =	kiloconv(p1.distanceTo(p2));
+
+
+                    if(!isNaN(instanceDistance)) {
+                        finalArray.push(cleanEvents[i]);
+                        x = finalArray.length;
+                        finalArray[x - 1][5] = instanceDistance;
+                    }
+                }
+                //document.write(finalArray.length+ ' final length of final array');
+                finalArray.sort(function(a, b){
+                    return parseFloat(a[5]) > parseFloat(b[5])?1:-1;
+                });
+
+
+
+                for(i=0;i<finalArray.length;i++){
+                    // put measurement units here ----
+                    if (finalArray[i][5] <= .1){
+                        finalArray[i][5] = (5280 * finalArray[i][5]).toFixed(0) + ' feet';
+                    }else if (finalArray[i][5] > .1 && finalArray[i][5] < .50){
+                        finalArray[i][5] = (1769 * finalArray[i][5]).toFixed(0) + ' yards';
+                    }else{
+                        finalArray[i][5] = finalArray[i][5] + ' miles';
+                    }
+
+                    htmlContent += '<li> <a href="eventsForMuseum.html?id='+finalArray[i][0]+' "><span style="font-size:10px; font-style:italic;">' + finalArray[i][5] + ' from you</span><br /><span class="summaryOrgName" style="font-weight:300">'+finalArray[i][1]+'</span> <br /> </li></a>';
+                }
+
+                $('#eventList').empty();
+                $('#eventList').append(htmlContent);
+                $('#eventList').listview();
+                $('#eventList').listview('refresh');
+
+
+            }
+
+
+        }
+    });
+
+
+});
+
 
 //todays events by disp
 $(document).on('pagebeforeshow', "#todaysEventsListByDisp",function () {
@@ -774,6 +841,9 @@ $(document).on('pagebeforeshow', "#editorialDetail",function () {
 
 function initPage(){
     currentDate = moment().format('MM/DD/YYYY');
+
+    //navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
     getEventsForToday(currentDate);
     getEventsForThisWeekend();
     getEventHighlights();

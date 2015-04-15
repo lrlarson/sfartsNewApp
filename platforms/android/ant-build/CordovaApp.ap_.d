@@ -57,6 +57,7 @@
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/bower_components \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/byDateEventSummary.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/closeToYou.html \
+/Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/closeToYouMuseums.html \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/config.codekit \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/cordova.js \
 /Applications/ColdFusion9/wwwroot/SFArts-Express/platforms/android/assets/www/cordova_plugins.js \

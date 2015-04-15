@@ -127,6 +127,7 @@
     <div data-role="content">
         <ul data-role="listview" id="museumList"><!-- inject here ---></ul>
         <script id="museumTemplate" type="x-handlebars-template">
+            <li><a href="closeToYouMuseums.html"><span style="color: darkgoldenrod">View by Distance from You</span></a></li>
             {{#each data}}
             <li><a href="eventsForMuseum.html?id={{org_num}}">{{org_name}}</a></li>
             {{/each}}
