@@ -20,7 +20,7 @@ function onDeviceReady() {
     var devicePlatform = device.platform;
     checkConnection();
     //alert('deviceReady');
-    //navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    navigator.geolocation.getCurrentPosition(onSuccess, onError);
     var options = { timeout: 31000, enableHighAccuracy: true, maximumAge: 90000 };
     if (devicePlatform == 'Android'){
         //alert('android');
@@ -28,7 +28,7 @@ function onDeviceReady() {
     }
     else
         {
-           // alert('IOS')
+           //alert('IOS')
             navigator.geolocation.getCurrentPosition(onSuccess, onError);
         }
 
@@ -48,6 +48,7 @@ function onResume() {
 
 document.addEventListener("offline", onOffline, false);
 
+/*
 function initPage(){
     checkDatesInBookmarks();
     console.log('initPage');
@@ -60,7 +61,7 @@ function initPage(){
     getNeighborhoodCount();
 
 }
-
+*/
 
 function checkDatesInBookmarks() {
     var now = moment();
@@ -631,7 +632,7 @@ $(document).on('pagebeforeshow', "#eventsForMuseum",function () {
                 data: d
             });
 
-            console.log(workReturn);
+           // console.log(data);
 
 
             var museumEventsTemplateScript = $('#museumEventsTemplate').html();
@@ -686,8 +687,8 @@ $(document).on('pagebeforeshow', "#neighborhoodEventList",function () {
                 data: d
             });
 
-            console.log('neighborhood');
-            console.log(workReturn);
+            //console.log('neighborhood');
+            //console.log(workReturn);
 
 
             var neighborhoodEventsTemplateScript = $('#neighborhoodEventsTemplate').html();
@@ -774,7 +775,7 @@ $(document).on('pagebeforeshow', "#eventFinalDetail",function () {
             workReturn = $.serializeCFJSON({
                 data: d
             });
-            console.log(workReturn);
+            //console.log(workReturn);
             $('#eventFinalName').html(workReturn.data[0].event_name);
             var eventTemplateScript = $('#eventDetailTemplate').html();
             eventTemplate = Handlebars.compile(eventTemplateScript);
@@ -843,7 +844,7 @@ function initPage(){
     currentDate = moment().format('MM/DD/YYYY');
 
     //navigator.geolocation.getCurrentPosition(onSuccess, onError);
-
+    console.log('in init page');
     getEventsForToday(currentDate);
     getEventsForThisWeekend();
     getEventHighlights();
@@ -867,7 +868,7 @@ function getActiveMuseums(){
             workReturn = $.serializeCFJSON({
                 data: d
             });
-            console.log(workReturn);
+            //console.log(workReturn);
 
 
 
@@ -1303,7 +1304,7 @@ Handlebars.registerHelper("isWebSite", function (org_web) {
 });
 
 function showPosition(position)
-{ //alert('in show position');
+{   //alert('in show position');
     //var myLocation = new google.maps.LatLng(37.779789,-122.418812)//city hall temp value
     //var myLocation = new google.maps.LatLng(37.973535,-122.531087)//standford temp value
     var myLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
@@ -1320,10 +1321,12 @@ function kiloconv(val){
 }
 
 function getLocation(){
+    console.log('initLoc');
     if (navigator.geolocation)
     {
         navigator.geolocation.getCurrentPosition(showPosition);
-        //alert('good');
+        //console.log('good');
+        
     }
     else{alert('This browser does not support location services');
     }
