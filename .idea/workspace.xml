@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="298" />
     <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1308" />
     <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1328" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="" />
+    <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/newApp.js" afterPath="$PROJECT_DIR$/www/js/newApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SFArts-Express.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,12 +151,12 @@
         <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+              <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
               <folding>
-                <marker date="1429129292000" expanded="true" signature="8070:8104" placeholder="..." />
-                <marker date="1429129292000" expanded="true" signature="8189:8204" placeholder="..." />
-                <marker date="1429129292000" expanded="true" signature="10516:10550" placeholder="..." />
-                <marker date="1429129292000" expanded="true" signature="10634:10649" placeholder="..." />
+                <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
+                <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
+                <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
+                <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -190,7 +236,26 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -219,26 +284,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SFArts-Express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SFArts-Express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SFArts-Express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +414,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39932126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -428,10 +474,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
-            <marker date="1429129292000" expanded="true" signature="8070:8104" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="8189:8204" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10516:10550" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10634:10649" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -499,10 +545,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1429129292000" expanded="true" signature="8070:8104" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="8189:8204" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10516:10550" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10634:10649" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -805,12 +851,12 @@
     <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
           <folding>
-            <marker date="1429129292000" expanded="true" signature="8070:8104" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="8189:8204" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10516:10550" placeholder="..." />
-            <marker date="1429129292000" expanded="true" signature="10634:10649" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
+            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
           </folding>
         </state>
       </provider>

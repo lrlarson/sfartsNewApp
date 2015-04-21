@@ -71,7 +71,7 @@ function checkDatesInBookmarks() {
 
     if (retrievedObject) {
         var jsonString = JSON.parse(retrievedObject);
-        length = jsonString.length;
+        var length = jsonString.length;
         for (var i = 0; i < length; i++) {
             var endDate = jsonString[i].end_date;
             var event_num = jsonString[i].event_num;
@@ -243,7 +243,7 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
         async: true,
         success: function (d, r, o) {
             $('#thisDate').html(currentDate);
-            finalArray = new Array();
+            finalArray = [];
             cleanEvents = d.DATA;
             htmlContent = '';
             //console.log(cleanEvents);
@@ -310,7 +310,7 @@ $(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
         async: true,
         success: function (d, r, o) {
 
-            finalArray = new Array();
+            finalArray = [];
             cleanEvents = d.DATA;
             htmlContent = '';
             //console.log(cleanEvents);
