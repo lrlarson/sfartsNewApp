@@ -4,51 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="298" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1308" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1328" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="368" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1364" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1384" />
+    <bookmark url="file://$PROJECT_DIR$/index.cfm" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="607" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/newApp.js" afterPath="$PROJECT_DIR$/www/js/newApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -75,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="349" column="7" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <marker date="1428437370000" expanded="true" signature="18691:18717" placeholder="### ... ###" />
                 <marker date="1428437370000" expanded="true" signature="18927:18951" placeholder="### ... ###" />
@@ -97,76 +62,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-mobile-struct-min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/jquery-mobile-struct-min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1128" column="52" selection-start-line="1128" selection-start-column="52" selection-end-line="1128" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="closeToYou.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="closeToYouMuseums.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/closeToYouMuseums.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thisWeekend.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/thisWeekend.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventsForMuseum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/eventsForMuseum.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="newApp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4488189">
+              <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
               <folding>
-                <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
-                <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
-                <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
-                <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
+                <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
+                <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
+                <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
+                <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/geo.js">
+      <file leaf-file-name="bookmarkedEvents.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <marker date="1404845985000" expanded="true" signature="1776:1791" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch_1" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -194,6 +131,13 @@
         <option value="$PROJECT_DIR$/merce/merceReference" />
         <option value="$PROJECT_DIR$/www/closeToYouMuseums.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/main.js" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/common.js" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/util.js" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/stats.js" />
+        <option value="vm:1398" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1" />
         <option value="$PROJECT_DIR$/www/js/newApp.js" />
       </list>
     </option>
@@ -206,9 +150,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1000" />
+    <option name="x" value="82" />
+    <option name="y" value="33" />
+    <option name="width" value="1558" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -254,8 +199,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -284,7 +244,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +259,9 @@
     <property name="SearchEverywhereHistoryKey" value="showpo&#9;null&#9;null&#10;deviceread&#9;null&#9;null&#10;alert&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="com.intellij.ide.scratch.NewScratchFileAction" value="JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -310,11 +272,20 @@
       <recent name="$PROJECT_DIR$/www/js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:34006/SFArts-Express/www/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -349,6 +320,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Test" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://127.0.0.1:8501/SFarts-Express/">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Test" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -398,16 +381,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="82" y="33" width="1558" height="1013" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25504228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24321267" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26086956" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -415,12 +398,13 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39932126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22381477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -443,73 +427,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
+          <line>420</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
+          <line>409</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
+          <line>950</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="count" language="JavaScript" />
+        <watch expression="workReturn.data.length" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/editorial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/closeToYou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-          <folding>
-            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/mapDisplay2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/eventsByDateDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -545,10 +489,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -637,24 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery-mobile-1.4.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.ui.core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="319" column="13" selection-start-line="319" selection-start-column="13" selection-end-line="319" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -774,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1128" column="52" selection-start-line="1128" selection-start-column="52" selection-end-line="1128" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,6 +746,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="14661" selection-start-line="3" selection-start-column="14661" selection-end-line="3" selection-end-column="14661" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery-mobile-1.4.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3441" selection-start-line="8" selection-start-column="3441" selection-end-line="8" selection-end-column="3441" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/11/common.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/11/util.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/11/stats.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttp%3A%2F%2Flocalhost%3A34006%2FSFArts-Express%2Fwww%2Findex.html&amp;4sAIzaSyDeAoBiPUncBuyH5-efc2csHqJcAHIn50E&amp;5e1&amp;callback=_xdc_._5zuqy5&amp;token=72398">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/11/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <marker date="1404845985000" expanded="true" signature="1776:1791" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -828,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="349" column="7" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <marker date="1428437370000" expanded="true" signature="18691:18717" placeholder="### ... ###" />
             <marker date="1428437370000" expanded="true" signature="18927:18951" placeholder="### ... ###" />
@@ -850,13 +841,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4488189">
+          <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
           <folding>
-            <marker date="1429234114000" expanded="true" signature="8065:8099" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="8184:8199" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10502:10536" placeholder="..." />
-            <marker date="1429234114000" expanded="true" signature="10620:10635" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
+            <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
           </folding>
         </state>
       </provider>
