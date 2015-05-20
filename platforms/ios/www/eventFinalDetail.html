@@ -1,59 +1,50 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Event Detail</title>
+<meta charset="UTF-8">
+<title>SF/Arts :: Guide to San Francisco Arts</title>
 
 </head>
 
 <body>
 <div data-role="page" id="eventFinalDetail" >
     <div data-role="header" data-add-back-btn="true">
-        <h1 style="font-size:14px" id="eventFinalName"></h1>
-
-        <div data-role="navbar" >
-            <ul>
-                    <li></li>
-            </ul>
-        </div><!-- /navbar -->
+        <h1 id="eventFinalName"></h1>
 
     </div><!--- end header--->
     <div data-role="content"  id="eventDetailBlock"><!--- inject here ---></div>
 
     <script id="eventDetailTemplate" type="x-handlebars-template">
         {{#each data}}
-        <span class="eventName" style="font-size:18px">{{event_name}}</span><br />
-        <span class="orgName">{{org_name}} </span><br /><br />
-
-        <span class="eventDate" style="font-style:italic;">{{date_string}}</span>
-
-        <span class="eventDate" style="font-style:italic;">{{time_string}}</span><br /><br />
-        {{{isPhoto imagenamelarge}}}
+        <div class="eventName">{{event_name}}</div>
+        <div class="orgName">{{org_name}} </div><br />
+        {{{isPhoto imagenametravel}}}
         <span class="eventDescription">{{event_description}} </span><br /><br />
-        <span class="ticketString" style="font-style:italic;">{{ticket_string}}</span>
-        <br />
-        <br />
-        <span class="venueName" style=""><b>Venue:</b> {{venue_name}}</span>
-        <br />
-      <span class="venueAddress" style=""> {{venue_address}}, {{venue_city}}
-        {{{isVenuePhone venue_phone}}}</span>
-
+        
+        <div id="details-header">Event Info</div>
+        <div id="details">
+        <div id="infoBox"><span class="eventDate">{{date_string}}</span></div>
+        <div id="infoBox"><span class="eventTime">{{time_string}}</span></div>
+        <div id="infoBox"><span class="ticketString">{{ticket_string}}</span></div>
+        <div id="infoBox"><span class="venueName"><strong>{{venue_name}}</strong></span><br>
+        <span class="venueAddress">{{venue_address}},{{venue_city}}{{{isVenuePhone venue_phone}}}</span></div>
         <a href="mapDisplay2.html?eventLatLong={{lat_lon}}" data-role="button" data-mini="true" data-theme="b">Map</a>
         <a href="#" id="bookmarkButton" data-role="button" data-mini="true" data-theme="b">Bookmark</a>
         {{{isTicketLink ticketlink}}}
         {{{isWebSite org_web}}}
+        </div>
         {{/each}}
         </script>
 
 
 
     <div data-role="footer" data-id="allot_footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="bottom">
+        <div data-role="navbar">
             <ul>
-                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
-                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
-                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
-                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+                <li><a href="index.html" data-id="footer_browse" data-icon="bars" data-iconpos="notext" class="ui-state-persist" data-transition="slide"></a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-icon="location" data-iconpos="notext" data-transition="slide"></a></li>   
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-icon="star" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-icon="search" data-iconpos="notext" data-transition="slide"></a></li>                
             </ul>
         </div>
     </div>

@@ -1,3 +1,10 @@
+$(document).on('pagebeforeshow', function () {
+    $.mobile.activePage.find(".ui-header a.ui-btn-left").addClass("ui-btn-icon-notext");
+    $.mobile.activePage.find(".ui-header a.ui-btn-left").removeClass("ui-btn-icon-left");
+});
+
+
+
 //var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var myGlobalLocation = '';
@@ -6,76 +13,7 @@ var htmlContent = '';
 
 //getLocation();
 
-$(document).on('pagebeforeshow', function () {
-    $.mobile.activePage.find(".ui-header a.ui-btn-left").addClass("ui-btn-icon-notext");
-    $.mobile.activePage.find(".ui-header a.ui-btn-left").removeClass("ui-btn-icon-left");
-});
 
-// Swipe to remove list item
-$( document ).on( "swipeleft swiperight", "#list li.ui-li", function( event ) {
-    var listitem = $( this ),
-    // These are the classnames used for the CSS transition
-        dir = event.type === "swipeleft" ? "left" : "right",
-    // Check if the browser supports the transform (3D) CSS transition
-        transition = $.support.cssTransform3d ? dir : false;
-
-    confirmAndDelete( listitem, transition );
-});
-
-// If it's not a touch device...
-if ( ! $.mobile.support.touch ) {
-
-    // Remove the class that is used to hide the delete button on touch devices
-    $( "#list" ).removeClass( "touch" );
-
-    // Click delete split-button to remove list item
-    $( ".delete" ).on( "click", function() {
-        var listitem = $( this ).parent( "li.ui-li" );
-
-        confirmAndDelete( listitem );
-    });
-}
-
-function confirmAndDelete( listitem, transition ) {
-    // Highlight the list item that will be removed
-    listitem.addClass("ui-btn-down-d");
-    // Inject topic in confirmation popup after removing any previous injected topics
-    $("#confirm .topic").remove();
-    listitem.find(".topic").clone().insertAfter("#question");
-    // Show the confirmation popup
-    $("#confirm").popup("open");
-    // Proceed when the user confirms
-    $("#confirm #yes").on("click", function () {
-        // Remove with a transition
-        if (transition) {
-
-            listitem
-                // Remove the highlight
-                .removeClass("ui-btn-down-d")
-                // Add the class for the transition direction
-                .addClass(transition)
-                // When the transition is done...
-                .on("webkitTransitionEnd transitionend otransitionend", function () {
-                    // ...the list item will be removed
-                    listitem.remove();
-                    // ...the list will be refreshed and the temporary class for border styling removed
-                    $("#list").listview("refresh").find(".ui-li.border").removeClass("border");
-                })
-                // During the transition the previous list item should get bottom border
-                .prev("li.ui-li").addClass("border");
-        }
-        // If it's not a touch device or the CSS transition isn't supported just remove the list item and refresh the list
-        else {
-            listitem.remove();
-            $("#list").listview("refresh");
-        }
-    });
-    // Remove active state and unbind when the cancel button is clicked
-    $("#confirm #cancel").on("click", function () {
-        listitem.removeClass("ui-btn-down-d");
-        $("#confirm #yes").off();
-    });
-}
 
 //document.addEventListener("deviceready", onDeviceReady, false);
 
@@ -227,6 +165,7 @@ var onSuccess = function(position) {
     //alert('success');
     myGlobalLocation = position;
 };
+
 
 
 function initialize(eventLatlng) {
@@ -392,7 +331,7 @@ $(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
 
                     if(!isNaN(instanceDistance)) {
                         finalArray.push(cleanEvents[i]);
-                        var x = finalArray.length;
+                        x = finalArray.length;
                         finalArray[x - 1][5] = instanceDistance;
                     }
                 }
@@ -433,7 +372,6 @@ $(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
 
 
 //todays events by disp
-
 $(document).on('pagebeforeshow', "#todaysEventsListByDisp",function () {
     var parameters = $(this).data("url").split("?")[1];
     disp = parameters.replace("disp=","");
@@ -714,7 +652,26 @@ $(document).on('pagebeforeshow', "#eventsForMuseum",function () {
 
         }
     });
+    /*
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getDispName',
+            returnFormat: 'json',
+            disp: disp
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            dispReturn = $.serializeCFJSON({
+                data: d
+            });
+            $('#weekendDisp').html(dispReturn.data[0].discipline);
 
+        }
+    });
+*/
 });
 
 
@@ -933,10 +890,6 @@ function getActiveMuseums(){
 
 }
 
-/**
- *
- * @param targetDate
- */
 function getDispCountForSpecDate(targetDate){
     $.ajax({
         url: dataHost,
@@ -1341,9 +1294,9 @@ Handlebars.registerHelper("isTicketLink", function (ticketlink) {
 });
 
 
-Handlebars.registerHelper("isPhoto", function (imagenamelarge) {
-    if (imagenamelarge) {
-        var string = '<img src="' + imagenamelarge +'" class="centerPhoto"  /> <br /><br />';
+Handlebars.registerHelper("isPhoto", function (imagenametravel) {
+    if (imagenametravel) {
+        var string = '<img src="' + imagenametravel +'" class="large_thumb"  /> <br /><br />';
         return string;
     }
 

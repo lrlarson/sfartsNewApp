@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<head>
+
+        --->
+</head>
+
+<body>
+<div data-role="page" id="searchReturn" data-add-back-btn="true">
+    <div data-role="header"  data-add-back-btn="true">
+        <h1 id="searchTextHeader"></h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" id="searchResults"><!---inject here ---></ul>
+        <script id="searchEventsTemplate" type="x-handlebars-template">
+            {{#each data}}
+                <li><a href="eventFinalDetail.html?event_num={{event_num}}">
+
+                    <span class="summaryOrgName" style="font-weight:300">{{org_name}}<br /></span>
+                    <span class="summaryOrgName" style="font-weight:100; font-size: smaller">{{date_string}}<br /></span>
+                    {{event_name}}
+                </a></li>
+            {{/each}}
+         </script>
+
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

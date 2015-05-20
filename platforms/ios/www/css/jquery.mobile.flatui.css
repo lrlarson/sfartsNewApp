@@ -9,7 +9,6 @@
 *
 */
 
-
 .ui-icon-action:after {
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAKZJREFUKJGVkbEJAkEQRQcRM2OxAQswE8E27MDUDo5rQ8HYIswtRQwFDTR4f0xcmTuX9e6Hs/8tf/6YdRCwd/dRF29D7u7AWdK0N/iBL5IWjWFQbWYmaQYc3f0WH4GXu2/aYIJWwCPz6S+YYkkaA1fgKamSNClGDeAWuEtaFstpg8BJ0jqWA+zSOdI6OfBQaLf+ejNR5//OkgVLit5hHHaBkwZ9zFFvZs0ccjGSLdsAAAAASUVORK5CYII=');
 }
@@ -526,6 +525,13 @@ div.ui-mobile-viewport {
 	position: absolute;
 }
 /* Headers, content panels */
+
+.headerLogo {
+    height: 50px;
+    background-color: #004EBC;
+    color: white;
+}
+
 .ui-bar,
 .ui-body {
 	position: relative;
@@ -547,9 +553,8 @@ div.ui-mobile-viewport {
 }
 .ui-header,
 .ui-footer {
-	border-width: 1px 0;
-	border-style: solid;
 	position: relative;
+    background-color: #004EBC
 }
 .ui-header:empty,
 .ui-footer:empty {
@@ -561,12 +566,12 @@ div.ui-mobile-viewport {
 	min-height: 1.1em;
 	text-align: center;
 	display: block;
-	margin: 0 30%;
 	padding: .7em 0;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
 	outline: 0 !important;
+    width: 70% !important;
 }
 .ui-footer .ui-title {
 	margin: 0 1em;
@@ -630,6 +635,9 @@ div.ui-mobile-viewport {
 	font-size: 12.5px;
 	display: inline-block;
 	vertical-align: middle;
+    background-color: transparent!important;
+    border: none !important;
+    color: white !important;
 }
 /* To ensure same top and left/right position when ui-btn-left/right are added to something other than buttons. */
 .ui-header .ui-btn-left,
@@ -2604,6 +2612,12 @@ fieldset.ui-controlgroup {
 	display: block;
 }
 /* ui-li-count is styled in the listview CSS. We set padding and offset here because select supports icon position while listview doesn't. */
+
+.default .ui-li>.ui-btn-inner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .ui-select .ui-li-has-count.ui-btn {
 	padding-right: 2.8125em;
 }
@@ -2828,6 +2842,8 @@ fieldset.ui-controlgroup {
 	right: .8em;
 	top: 50%;
 	margin-top: -.88em;
+    color: #27AE60 !important;
+    margin-right: 5px;
 }
 .ui-listview .ui-btn-icon-right .ui-li-count {
 	right: 3.2em;
@@ -3875,12 +3891,16 @@ html {
 body,
 input,
 select,
-textarea,
-button,
-.ui-btn {
+textarea {
 	font-size: 1em;
 	line-height: 1.3;
-	font-family: Lato, sans-serif;
+	font-family: 'AvenirNextLTW01-Regular', sans-serif;
+}
+button,
+.ui-btn {
+    font-size: 1em;
+	line-height: 1.3;
+    font-family: 'AvenirNextLTW01-Medium', sans-serif;
 }
 legend,
 .ui-input-text input,
@@ -3991,12 +4011,11 @@ label.ui-btn {
 .ui-btn-icon-top:after,
 .ui-btn-icon-bottom:after,
 .ui-btn-icon-notext:after {
-	background-color: 					#666;
-	background-color: 					rgba(0,0,0,.3);
+	background-color:  transparent;
+	background-color:  transparent;
 	background-position: center center;
 	background-repeat: no-repeat;
-	-webkit-border-radius: 1em;
-	border-radius: 1em;
+    background-size: 22px;
 }
 /* Alt icons */
 .ui-alt-icon.ui-btn:after,
@@ -4054,8 +4073,9 @@ html .ui-alt-icon .ui-radio-off:after {
 }
 /* Loader */
 .ui-icon-loading {
-	background: url(images/ajax-loader.gif);
+	background: url(images/loader.gif);
 	background-size: 2.875em 2.875em;
+    border: none !important;
 }
 
 /* Disabled
@@ -4104,37 +4124,54 @@ button[disabled],
 	-webkit-border-radius: 14px;
 	border-radius: 14px;
 }
-html .ui-bar-a,html .ui-page-theme-a .ui-bar-inherit,html .ui-bar-a .ui-bar-inherit,html .ui-body-a .ui-bar-inherit,html body .ui-group-theme-a .ui-bar-inherit{background:#2c3e50;border-color:#2c3e50;color:#fff;font-weight:bold}
-html .ui-bar-a{border-width:1px;border-style:solid}
-html .ui-overlay-a,html .ui-page-theme-a,html .ui-page-theme-a .ui-panel-wrapper{background:#f9f9f9;border-color:#bbb;color:#333}
-html .ui-body-a,html .ui-page-theme-a .ui-body-inherit,html .ui-bar-a .ui-body-inherit,html .ui-body-a .ui-body-inherit,html body .ui-group-theme-a .ui-body-inherit,html .ui-panel-page-container-a{background:#fff;border-color:#2c3e50;color:#333}
-html .ui-body-a{border-width:1px;border-style:solid}
-html .ui-page-theme-a a,html .ui-bar-a a,html .ui-body-a a,html body .ui-group-theme-a a{color:#4e6d8d;font-weight:bold}
-html .ui-page-theme-a a:visited,html .ui-bar-a a:visited,html .ui-body-a a:visited,html body .ui-group-theme-a a:visited{color:#4e6d8d}
-html .ui-page-theme-a a:hover,html .ui-bar-a a:hover,html .ui-body-a a:hover,html body .ui-group-theme-a a:hover{color:#4e6d8d}
-html .ui-page-theme-a a:active,html .ui-bar-a a:active,html .ui-body-a a:active,html body .ui-group-theme-a a:active{color:#4e6d8d}
-html .ui-page-theme-a .ui-btn,html .ui-bar-a .ui-btn,html .ui-body-a .ui-btn,html body .ui-group-theme-a .ui-btn,html body .ui-btn.ui-btn-a,html .ui-page-theme-a .ui-btn:visited,html .ui-bar-a .ui-btn:visited,html .ui-body-a .ui-btn:visited,html body .ui-group-theme-a .ui-btn:visited,html body .ui-btn.ui-btn-a:visited{background:#2c3e50;border-color:#2c3e50;color:#fff}
-html .ui-page-theme-a .ui-btn:hover,html .ui-bar-a .ui-btn:hover,html .ui-body-a .ui-btn:hover,html body .ui-group-theme-a .ui-btn:hover,html body .ui-btn.ui-btn-a:hover{background:#4e6d8d;border-color:#4e6d8d;color:#fff}
-html .ui-page-theme-a .ui-btn:active,html .ui-bar-a .ui-btn:active,html .ui-body-a .ui-btn:active,html body .ui-group-theme-a .ui-btn:active,html body .ui-btn.ui-btn-a:active{background:#4e6d8d;border-color:#4e6d8d;color:#fff}
-html .ui-page-theme-a .ui-btn.ui-btn-active,html .ui-bar-a .ui-btn.ui-btn-active,html .ui-body-a .ui-btn.ui-btn-active,html body .ui-group-theme-a .ui-btn.ui-btn-active,html body .ui-btn.ui-btn-a.ui-btn-active,html .ui-page-theme-a .ui-flipswitch-active,html .ui-bar-a .ui-flipswitch-active,html .ui-body-a .ui-flipswitch-active,html body .ui-group-theme-a .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,html .ui-page-theme-a .ui-slider-track .ui-btn-active,html .ui-bar-a .ui-slider-track .ui-btn-active,html .ui-body-a .ui-slider-track .ui-btn-active,html body .ui-group-theme-a .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-a .ui-btn-active{background-color:#4e6d8d;border-color:#4e6d8d;color:#fff}
-html .ui-page-theme-a .ui-checkbox-on:after,html .ui-bar-a .ui-checkbox-on:after,html .ui-body-a .ui-checkbox-on:after,html body .ui-group-theme-a .ui-checkbox-on:after,html .ui-btn.ui-checkbox-on.ui-btn-a:after,html background-color: primary_color{border-color:#2c3e50;color:#fff}
-html .ui-page-theme-a .ui-radio-on:after,html .ui-bar-a .ui-radio-on:after,html .ui-body-a .ui-radio-on:after,html body .ui-group-theme-a .ui-radio-on:after,html .ui-btn.ui-radio-on.ui-btn-a:after{background-color:#2c3e50;color:#fff}
+html .ui-bar-a,html .ui-page-theme-a .ui-bar-inherit,html .ui-bar-a .ui-bar-inherit,html .ui-body-a .ui-bar-inherit,html body .ui-group-theme-a .ui-bar-inherit{background:#004EBC;border-color:#dbdfe6;color:#fff;font-weight:bold}
 
-html .ui-bar-b,html .ui-page-theme-b .ui-bar-inherit,html .ui-bar-b .ui-bar-inherit,html .ui-body-b .ui-bar-inherit,html body .ui-group-theme-b .ui-bar-inherit{background:#16a085;border-color:#16a085;color:#fff;font-weight:bold}
+html .ui-bar-a{border-width:1px;border-style:solid}
+
+html .ui-overlay-a,html .ui-page-theme-a,html .ui-page-theme-a .ui-panel-wrapper{background:#fff;border-color:#bbb;color:#333}
+
+html .ui-body-a,html .ui-page-theme-a .ui-body-inherit,html .ui-bar-a .ui-body-inherit,html .ui-body-a .ui-body-inherit,html body .ui-group-theme-a .ui-body-inherit,html .ui-panel-page-container-a{background:#fff;border-color:#004EBC;color:#333}
+
+html .ui-body-a{border-width:1px;border-style:solid}
+
+html .ui-page-theme-a a,html .ui-bar-a a,html .ui-body-a a,html body .ui-group-theme-a a{color:#004EBC;font-weight:bold}
+
+html .ui-page-theme-a a:visited,html .ui-bar-a a:visited,html .ui-body-a a:visited,html body .ui-group-theme-a a:visited{color:gray}
+
+html .ui-page-theme-a a:hover,html .ui-bar-a a:hover,html .ui-body-a a:hover,html body .ui-group-theme-a a:hover{color:gray}
+
+html .ui-page-theme-a a:active,html .ui-bar-a a:active,html .ui-body-a a:active,html body .ui-group-theme-a a:active{color:gray}
+
+html .ui-page-theme-a .ui-btn,html .ui-bar-a .ui-btn,html .ui-body-a .ui-btn,html body .ui-group-theme-a .ui-btn,html body .ui-btn.ui-btn-a,html .ui-page-theme-a .ui-btn:visited,html .ui-bar-a .ui-btn:visited,html .ui-body-a .ui-btn:visited,html body .ui-group-theme-a .ui-btn:visited,html body .ui-btn.ui-btn-a:visited{background:#f0f3f7;border-color:#dbdfe6;color:#000;}
+
+
+html .ui-page-theme-a .ui-btn:hover,html .ui-bar-a .ui-btn:hover,html .ui-body-a .ui-btn:hover,html body .ui-group-theme-a .ui-btn:hover,html body .ui-btn.ui-btn-a:hover{background:#fff;border-color:#dbdfe6;color: #004EBC}
+
+html .ui-page-theme-a .ui-btn:active,html .ui-bar-a .ui-btn:active,html .ui-body-a .ui-btn:active,html body .ui-group-theme-a .ui-btn:active,html body .ui-btn.ui-btn-a:active{background:#fff;border-color:#dbdfe6;color:#004EBC}
+
+html .ui-page-theme-a .ui-btn.ui-btn-active,html .ui-bar-a .ui-btn.ui-btn-active,html .ui-body-a .ui-btn.ui-btn-active,html body .ui-group-theme-a .ui-btn.ui-btn-active,html body .ui-btn.ui-btn-a.ui-btn-active,html .ui-page-theme-a .ui-flipswitch-active,html .ui-bar-a .ui-flipswitch-active,html .ui-body-a .ui-flipswitch-active,html body .ui-group-theme-a .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,html .ui-page-theme-a .ui-slider-track .ui-btn-active,html .ui-bar-a .ui-slider-track .ui-btn-active,html .ui-body-a .ui-slider-track .ui-btn-active,html body .ui-group-theme-a .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-a .ui-btn-active{background-color:#fff;border-color:#dbdfe6;color:#004EBC}
+
+html .ui-page-theme-a .ui-checkbox-on:after,html .ui-bar-a .ui-checkbox-on:after,html .ui-body-a .ui-checkbox-on:after,html body .ui-group-theme-a .ui-checkbox-on:after,html .ui-btn.ui-checkbox-on.ui-btn-a:after,html background-color: primary_color{border-color:#004EBC;color:#fff}
+html .ui-page-theme-a .ui-radio-on:after,html .ui-bar-a .ui-radio-on:after,html .ui-body-a .ui-radio-on:after,html body .ui-group-theme-a .ui-radio-on:after,html .ui-btn.ui-radio-on.ui-btn-a:after{background-color:#004EBC;color:#fff}
+
+html .ui-bar-b,html .ui-page-theme-b .ui-bar-inherit,html .ui-bar-b .ui-bar-inherit,html .ui-body-b .ui-bar-inherit,html body .ui-group-theme-b .ui-bar-inherit{background:#3669c9;border-color:#3669c9;color:#fff;font-weight:bold}
 html .ui-bar-b{border-width:1px;border-style:solid}
 html .ui-overlay-b,html .ui-page-theme-b,html .ui-page-theme-b .ui-panel-wrapper{background:#f9f9f9;border-color:#bbb;color:#333}
-html .ui-body-b,html .ui-page-theme-b .ui-body-inherit,html .ui-bar-b .ui-body-inherit,html .ui-body-b .ui-body-inherit,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b{background:#fff;border-color:#16a085;color:#333}
+html .ui-body-b,html .ui-page-theme-b .ui-body-inherit,html .ui-bar-b .ui-body-inherit,html .ui-body-b .ui-body-inherit,html body .ui-group-theme-b .ui-body-inherit,html .ui-panel-page-container-b{background:#fff;border-color:#3669c9;color:#333}
 html .ui-body-b{border-width:1px;border-style:solid}
-html .ui-page-theme-b a,html .ui-bar-b a,html .ui-body-b a,html body .ui-group-theme-b a{color:#1abc9c;font-weight:bold}
-html .ui-page-theme-b a:visited,html .ui-bar-b a:visited,html .ui-body-b a:visited,html body .ui-group-theme-b a:visited{color:#1abc9c}
-html .ui-page-theme-b a:hover,html .ui-bar-b a:hover,html .ui-body-b a:hover,html body .ui-group-theme-b a:hover{color:#1abc9c}
-html .ui-page-theme-b a:active,html .ui-bar-b a:active,html .ui-body-b a:active,html body .ui-group-theme-b a:active{color:#1abc9c}
-html .ui-page-theme-b .ui-btn,html .ui-bar-b .ui-btn,html .ui-body-b .ui-btn,html body .ui-group-theme-b .ui-btn,html body .ui-btn.ui-btn-b,html .ui-page-theme-b .ui-btn:visited,html .ui-bar-b .ui-btn:visited,html .ui-body-b .ui-btn:visited,html body .ui-group-theme-b .ui-btn:visited,html body .ui-btn.ui-btn-b:visited{background:#16a085;border-color:#16a085;color:#fff}
-html .ui-page-theme-b .ui-btn:hover,html .ui-bar-b .ui-btn:hover,html .ui-body-b .ui-btn:hover,html body .ui-group-theme-b .ui-btn:hover,html body .ui-btn.ui-btn-b:hover{background:#1abc9c;border-color:#1abc9c;color:#fff}
-html .ui-page-theme-b .ui-btn:active,html .ui-bar-b .ui-btn:active,html .ui-body-b .ui-btn:active,html body .ui-group-theme-b .ui-btn:active,html body .ui-btn.ui-btn-b:active{background:#1abc9c;border-color:#1abc9c;color:#fff}
-html .ui-page-theme-b .ui-btn.ui-btn-active,html .ui-bar-b .ui-btn.ui-btn-active,html .ui-body-b .ui-btn.ui-btn-active,html body .ui-group-theme-b .ui-btn.ui-btn-active,html body .ui-btn.ui-btn-b.ui-btn-active,html .ui-page-theme-b .ui-flipswitch-active,html .ui-bar-b .ui-flipswitch-active,html .ui-body-b .ui-flipswitch-active,html body .ui-group-theme-b .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,html .ui-page-theme-b .ui-slider-track .ui-btn-active,html .ui-bar-b .ui-slider-track .ui-btn-active,html .ui-body-b .ui-slider-track .ui-btn-active,html body .ui-group-theme-b .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-b .ui-btn-active{background-color:#1abc9c;border-color:#1abc9c;color:#fff}
-html .ui-page-theme-b .ui-checkbox-on:after,html .ui-bar-b .ui-checkbox-on:after,html .ui-body-b .ui-checkbox-on:after,html body .ui-group-theme-b .ui-checkbox-on:after,html .ui-btn.ui-checkbox-on.ui-btn-b:after,html background-color: primary_color{border-color:#16a085;color:#fff}
-html .ui-page-theme-b .ui-radio-on:after,html .ui-bar-b .ui-radio-on:after,html .ui-body-b .ui-radio-on:after,html body .ui-group-theme-b .ui-radio-on:after,html .ui-btn.ui-radio-on.ui-btn-b:after{background-color:#16a085;color:#fff}
+html .ui-page-theme-b a,html .ui-bar-b a,html .ui-body-b a,html body .ui-group-theme-b a{color:#3669c9;font-weight:bold}
+html .ui-page-theme-b a:visited,html .ui-bar-b a:visited,html .ui-body-b a:visited,html body .ui-group-theme-b a:visited{color:#3669c9}
+html .ui-page-theme-b a:hover,html .ui-bar-b a:hover,html .ui-body-b a:hover,html body .ui-group-theme-b a:hover{color:#3669c9}
+html .ui-page-theme-b a:active,html .ui-bar-b a:active,html .ui-body-b a:active,html body .ui-group-theme-b a:active{color:#3669c9}
+
+html .ui-page-theme-b .ui-btn,html .ui-bar-b .ui-btn,html .ui-body-b .ui-btn,html body .ui-group-theme-b .ui-btn,html body .ui-btn.ui-btn-b,html .ui-page-theme-b .ui-btn:visited,html .ui-bar-b .ui-btn:visited,html .ui-body-b .ui-btn:visited,html body .ui-group-theme-b .ui-btn:visited,html body .ui-btn.ui-btn-b:visited{background:#fff;border:none;color:#004EBC; padding: 20px; text-transform: uppercase; font-family:"Avenir Next LT W01 Demi"; border-radius: 6; letter-spacing: 2px; font-size: 12px; margin-bottom: 10px;}
+
+html .ui-page-theme-b .ui-btn:hover,html .ui-bar-b .ui-btn:hover,html .ui-body-b .ui-btn:hover,html body .ui-group-theme-b .ui-btn:hover,html body .ui-btn.ui-btn-b:hover{background:#004EBC;border:none;color:#fff}
+
+html .ui-page-theme-b .ui-btn:active,html .ui-bar-b .ui-btn:active,html .ui-body-b .ui-btn:active,html body .ui-group-theme-b .ui-btn:active,html body .ui-btn.ui-btn-b:active{background:#3669c9;border:none;color:#fff}
+html .ui-page-theme-b .ui-btn.ui-btn-active,html .ui-bar-b .ui-btn.ui-btn-active,html .ui-body-b .ui-btn.ui-btn-active,html body .ui-group-theme-b .ui-btn.ui-btn-active,html body .ui-btn.ui-btn-b.ui-btn-active,html .ui-page-theme-b .ui-flipswitch-active,html .ui-bar-b .ui-flipswitch-active,html .ui-body-b .ui-flipswitch-active,html body .ui-group-theme-b .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active,html .ui-page-theme-b .ui-slider-track .ui-btn-active,html .ui-bar-b .ui-slider-track .ui-btn-active,html .ui-body-b .ui-slider-track .ui-btn-active,html body .ui-group-theme-b .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-b .ui-btn-active{background-color:#3669c9;border:none;color:#fff font-size: .9em; font-weight: 400;}
+html .ui-page-theme-b .ui-checkbox-on:after,html .ui-bar-b .ui-checkbox-on:after,html .ui-body-b .ui-checkbox-on:after,html body .ui-group-theme-b .ui-checkbox-on:after,html .ui-btn.ui-checkbox-on.ui-btn-b:after,html background-color: primary_color{border:none;color:#fff}
+html .ui-page-theme-b .ui-radio-on:after,html .ui-bar-b .ui-radio-on:after,html .ui-body-b .ui-radio-on:after,html body .ui-group-theme-b .ui-radio-on:after,html .ui-btn.ui-radio-on.ui-btn-b:after{background-color:#3669c9;color:#fff}
 
 html .ui-bar-c,html .ui-page-theme-c .ui-bar-inherit,html .ui-bar-c .ui-bar-inherit,html .ui-body-c .ui-bar-inherit,html body .ui-group-theme-c .ui-bar-inherit{background:#f2f2f2;border-color:#f2f2f2;color:#000;font-weight:bold}
 html .ui-bar-c{border-width:1px;border-style:solid}
@@ -4216,49 +4253,38 @@ html .ui-page-theme-g .ui-btn.ui-btn-active,html .ui-bar-g .ui-btn.ui-btn-active
 html .ui-page-theme-g .ui-checkbox-on:after,html .ui-bar-g .ui-checkbox-on:after,html .ui-body-g .ui-checkbox-on:after,html body .ui-group-theme-g .ui-checkbox-on:after,html .ui-btn.ui-checkbox-on.ui-btn-g:after,html background-color: primary_color{border-color:#2ecc71;color:#fff}
 html .ui-page-theme-g .ui-radio-on:after,html .ui-bar-g .ui-radio-on:after,html .ui-body-g .ui-radio-on:after,html body .ui-group-theme-g .ui-radio-on:after,html .ui-btn.ui-radio-on.ui-btn-g:after{background-color:#2ecc71;color:#fff}
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'),
-    local('Lato-Regular'),
-    url(fonts/lato-regular.woff) format('woff'),
-    url(fonts/lato-regular.ttf) format('truetype');
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=a130c1a8-90b4-49d3-b459-6e4ce45cea2e");
+@font-face{
+font-family:"AvenirNextLTW01-Regular";
+src:url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+src:url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"),url("Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"),url("Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"),url("Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg");
 }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'),
-    local('Lato-Bold'),
-    url(fonts/lato-bold.woff) format('woff'),
-    url(fonts/lato-bold.ttf) format('truetype');
+@font-face{
+font-family:"AvenirNextLTW01-Italic";
+src:url("Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+src:url("Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"),url("Fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"),url("Fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"),url("Fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"),url("Fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg");
 }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'),
-    local('Lato-Black'),
-    url(fonts/lato-black.woff) format('woff'),
-    url(fonts/lato-black.ttf) format('truetype');
+@font-face{
+font-family:"AvenirNextLTW01-Medium";
+src:url("Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+src:url("Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"),url("Fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"),url("Fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"),url("Fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"),url("Fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
 }
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'),
-    local('Lato-Italic'),
-    url(fonts/lato-italic.woff) format('woff'),
-    url(fonts/lato-italic.ttf) format('truetype');
+@font-face{
+font-family:"AvenirNextLTW01-MediumI 721278";
+src:url("Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
+src:url("Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"),url("Fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"),url("Fonts/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"),url("Fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"),url("Fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg");
 }
-@font-face {
-  font-family: "Flat-UI-Icons-24";
-  font-weight: normal;
-  font-style: normal;
-  src: url("fonts/Flat-UI-Icons-24.woff") format("woff"),
-    url(fonts/Flat-UI-Icons-24.ttf) format('truetype');
+@font-face{
+font-family:"Avenir Next LT W01 Demi";
+src:url("Fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
+src:url("Fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"),url("Fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"),url("Fonts/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"),url("Fonts/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"),url("Fonts/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg");
 }
+@font-face{
+font-family:"AvenirNextLTW01-DemiIta";
+src:url("Fonts/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix");
+src:url("Fonts/770d9a7e-8842-4376-9319-8f2c8b8e880d.eot?#iefix") format("eot"),url("Fonts/687932cb-145b-4690-a21d-ed1243db9e36.woff2") format("woff2"),url("Fonts/bc350df4-3100-4ce1-84ce-4a5363dbccfa.woff") format("woff"),url("Fonts/bc13ae80-cd05-42b4-b2a9-c123259cb166.ttf") format("truetype"),url("Fonts/4862b373-2643-46b1-b0b5-88537c52d15c.svg#4862b373-2643-46b1-b0b5-88537c52d15c") format("svg");
+}
+
 
 /* Use the following CSS code if you want to have a class per icon */
 /*Instead of a list of all class selectors,

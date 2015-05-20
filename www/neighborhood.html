@@ -9,18 +9,16 @@
 <body>
 <div data-role="page" id="neighborhoodEventList" >
     <div data-role="header" data-add-back-btn="true">
-        <h1>Events in<br /> <span id="neighborhood"><!-- inserted here --> </span> </h1>
-
+        <h1>Events </h1>
     </div>
+    <div class="subheader"><span id="neighborhood"></span></div>
     <div data-role="content">
         <ul data-role="listview" id="neighborhoodEvents"><!--- injected here ---></ul>
 
         <script id="neighborhoodEventsTemplate" type="x-handlebars-template">
             {{#each data}}
                 <li><a href="eventFinalDetail.html?event_num={{event_num}}">
-
-                    <span class="summaryOrgName" style="font-weight:300">{{org_name}}<br /></span>
-                    <span class="summaryOrgName" style="font-weight:100">{{date_string}}<br /></span>
+                    <span class="summaryOrgName">{{org_name}}</span><br>
                     {{event_name}}
                 </a></li>
             {{/each}}
@@ -29,12 +27,12 @@
 
     </div>
     <div data-role="footer" data-id="allot_footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="bottom">
+        <div data-role="navbar">
             <ul>
-                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
-                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
-                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
-                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+                <li><a href="index.html" data-id="footer_browse" data-icon="bars" data-iconpos="notext" class="ui-state-persist" data-transition="slide"></a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-icon="location" data-iconpos="notext" data-transition="slide"></a></li>   
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-icon="star" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-icon="search" data-iconpos="notext" data-transition="slide"></a></li>                
             </ul>
         </div>
     </div>

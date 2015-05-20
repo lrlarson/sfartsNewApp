@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<head>
+
+
+</head>
+
+<body>
+<div data-role="page" id="todaysEventsList" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Bookmarks</h1>
+    </div>
+    <div data-role="content" data-add-back-btn="true" id="contentList">
+
+
+
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function(e) {
+            console.log('bookmark ready');
+            var htmlString = '';
+            retrievedObject = localStorage.getItem('events');
+            console.log(retrievedObject);
+            if (retrievedObject) {
+                if (retrievedObject.length >0) {
+                    bookMarks = JSON.parse(retrievedObject)
+                    ul = document.createElement('ul')
+                    ul.setAttribute('data-role', 'listview');
+                    ul.setAttribute('id', 'list');
+                    for (var i = 0; i < bookMarks.length; i++) {
+                        //console.log(bookMarks[i].eventName);
+                        htmlString += '<li><a href = "eventFinalDetail.html?event_num=' + bookMarks[i].event_num + '">';
+                        htmlString += '<span class="summaryOrgName" style="font-weight:300">' + bookMarks[i].org_name;
+                        htmlString += '</span><br>' + bookMarks[i].eventName + '</a></li>';
+                    }
+                    ul.innerHTML = htmlString;
+                    document.getElementById('contentList').appendChild(ul);
+                }else{
+                    ul = document.createElement('ul')
+                    ul.setAttribute('data-role','listview');
+                    ul.setAttribute('id','list');
+                    htmlString += '<span class="summaryOrgName" style="font-weight:300"> No Bookmarked Events' ;
+                    ul.innerHTML = htmlString;
+                    document.getElementById('contentList').appendChild(ul);
+                }
+            }else{
+                ul = document.createElement('ul')
+                ul.setAttribute('data-role','listview');
+                ul.setAttribute('id','list');
+                htmlString += '<span class="summaryOrgName" style="font-weight:300"> No Bookmarked Events' ;
+                ul.innerHTML = htmlString;
+                document.getElementById('contentList').appendChild(ul);
+            }
+        });
+    </script>
+</div>
+</body>
+</html>

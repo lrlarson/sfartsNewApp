@@ -4,18 +4,337 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="368" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1364" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1384" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="377" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="1335" />
     <bookmark url="file://$PROJECT_DIR$/index.cfm" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="607" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/newApp.js" line="616" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/bower_components/jquery-mobile-bower/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-black.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/lato-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/css/newTheme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery-mobile-bower/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/bower_components/jquery-mobile-bower/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-black.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/fonts/lato-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/newTheme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/css/newTheme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/jquery-mobile-bower/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/jquery/.bower.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.ttf" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/fonts/Flat-UI-Icons-24.ttf" afterPath="$PROJECT_DIR$/www/css/fonts/Flat-UI-Icons-24.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.woff" afterPath="$PROJECT_DIR$/platforms/ios/www/css/fonts/Flat-UI-Icons-24.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/fonts/Flat-UI-Icons-24.woff" afterPath="$PROJECT_DIR$/www/css/fonts/Flat-UI-Icons-24.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/action-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/action-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/action-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/action-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/action-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/www/css/images/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/alert-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/alert-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/alert-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/alert-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/alert-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/arrow-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/arrow-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/audio-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/audio-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/audio-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/audio-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/audio-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/back-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/back-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/back-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/back-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/back-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/bars-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bars-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bars-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/bars-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bars-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/bullets-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bullets-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/bullets-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/bullets-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/bullets-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/calendar-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/calendar-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/calendar-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/calendar-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/calendar-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/camera-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/camera-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/camera-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/camera-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/camera-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-d-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-l-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-r-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/carat-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/carat-u-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/check-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/check-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/check-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/check-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/check-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/clock-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/clock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/clock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/clock-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/clock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/cloud-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/cloud-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/cloud-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/cloud-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/cloud-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/comment-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/comment-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/comment-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/comment-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/comment-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/delete-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/delete-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/delete-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/delete-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/delete-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/edit-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/edit-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/edit-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/edit-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/edit-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/eye-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/eye-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/eye-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/eye-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/eye-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forbidden-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forbidden-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/forward-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forward-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/forward-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/forward-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/forward-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/gear-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/gear-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/gear-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/gear-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/gear-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/grid-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/grid-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/grid-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/grid-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/grid-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/heart-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/heart-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/heart-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/heart-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/heart-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/home-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/home-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/home-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/home-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/home-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-18-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-18-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-18-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-36-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-36-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-36-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/info-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/info-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/info-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/info-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/info-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/location-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/location-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/location-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/location-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/location-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/lock-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/lock-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/lock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/lock-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/lock-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/mail-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/mail-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/mail-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/mail-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/mail-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/minus-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/minus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/minus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/minus-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/minus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/navigation-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/navigation-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/navigation-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/navigation-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/navigation-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/phone-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/phone-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/phone-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/phone-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/phone-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/plus-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/plus-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/plus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/plus-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/plus-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/power-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/power-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/power-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/power-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/power-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/recycle-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/recycle-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/recycle-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/recycle-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/recycle-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/refresh-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/refresh-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/refresh-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/refresh-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/refresh-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/search-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/search-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/search-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/search-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/search-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/shop-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/shop-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/shop-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/shop-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/shop-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/star-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/star-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/star-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/star-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/star-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/tag-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/tag-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/tag-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/tag-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/tag-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/user-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/user-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/user-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/user-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/user-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-black.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/video-black.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/video-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-white.png" afterPath="$PROJECT_DIR$/platforms/ios/www/css/images/icons-png/video-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/images/icons-png/video-white.png" afterPath="$PROJECT_DIR$/www/css/images/icons-png/video-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/app.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/app.css" afterPath="$PROJECT_DIR$/www/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/bookmarkedEvents.html" afterPath="$PROJECT_DIR$/platforms/ios/www/bookmarkedEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bookmarkedEvents.html" afterPath="$PROJECT_DIR$/www/bookmarkedEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/byDateEventSummary.html" afterPath="$PROJECT_DIR$/platforms/ios/www/byDateEventSummary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/byDateEventSummary.html" afterPath="$PROJECT_DIR$/www/byDateEventSummary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/closeToYou.html" afterPath="$PROJECT_DIR$/platforms/ios/www/closeToYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/closeToYou.html" afterPath="$PROJECT_DIR$/www/closeToYou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/closeToYouMuseums.html" afterPath="$PROJECT_DIR$/platforms/ios/www/closeToYouMuseums.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/closeToYouMuseums.html" afterPath="$PROJECT_DIR$/www/closeToYouMuseums.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/datepicker.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/datepicker.css" afterPath="$PROJECT_DIR$/www/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/editorial.html" afterPath="$PROJECT_DIR$/platforms/ios/www/editorial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/editorial.html" afterPath="$PROJECT_DIR$/www/editorial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/editorialFinalDetail.html" afterPath="$PROJECT_DIR$/platforms/ios/www/editorialFinalDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/editorialFinalDetail.html" afterPath="$PROJECT_DIR$/www/editorialFinalDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/eventFinalDetail.html" afterPath="$PROJECT_DIR$/platforms/ios/www/eventFinalDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/eventFinalDetail.html" afterPath="$PROJECT_DIR$/www/eventFinalDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/eventsByDateDetail.html" afterPath="$PROJECT_DIR$/platforms/ios/www/eventsByDateDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/eventsByDateDetail.html" afterPath="$PROJECT_DIR$/www/eventsByDateDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/eventsForMuseum.html" afterPath="$PROJECT_DIR$/platforms/ios/www/eventsForMuseum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/eventsForMuseum.html" afterPath="$PROJECT_DIR$/www/eventsForMuseum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/fastclick.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/fastclick.js" afterPath="$PROJECT_DIR$/www/js/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery-mobile-struct-min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery-mobile-struct-min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/jquery-mobile-struct-min.css" afterPath="$PROJECT_DIR$/www/css/jquery-mobile-struct-min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" afterPath="$PROJECT_DIR$/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/jquery-ui-1.10.4.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/www/js/jquery-ui-1.10.4.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.datepicker.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/jquery.mobile.datepicker.css" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.flatui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.icons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/mapDisplay2.html" afterPath="$PROJECT_DIR$/platforms/ios/www/mapDisplay2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/mapDisplay2.html" afterPath="$PROJECT_DIR$/www/mapDisplay2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/neighborhood.html" afterPath="$PROJECT_DIR$/platforms/ios/www/neighborhood.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/neighborhood.html" afterPath="$PROJECT_DIR$/www/neighborhood.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/newApp.js" afterPath="$PROJECT_DIR$/www/js/newApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/searchReturn.html" afterPath="$PROJECT_DIR$/platforms/ios/www/searchReturn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/searchReturn.html" afterPath="$PROJECT_DIR$/www/searchReturn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/thisWeekend.html" afterPath="$PROJECT_DIR$/platforms/ios/www/thisWeekend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/thisWeekend.html" afterPath="$PROJECT_DIR$/www/thisWeekend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/todaysEvents.html" afterPath="$PROJECT_DIR$/platforms/ios/www/todaysEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todaysEvents.html" afterPath="$PROJECT_DIR$/www/todaysEvents.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SFArts-Express.iws" />
@@ -37,54 +356,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="1.0344827">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               <folding>
-                <marker date="1428437370000" expanded="true" signature="18691:18717" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="18927:18951" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="18976:19003" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19029:19101" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19152:19251" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19278:19288" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19313:19331" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19356:19373" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19398:19436" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19461:19475" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19500:19514" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19539:19553" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19578:19589" placeholder="### ... ###" />
-                <marker date="1428437370000" expanded="true" signature="19643:19738" placeholder="### ... ###" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1432076893000" expanded="true" signature="696:763" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20341:20367" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20577:20601" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20626:20653" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20679:20751" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20802:20901" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20928:20938" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="20963:20981" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21006:21023" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21048:21086" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21111:21125" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21150:21164" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21189:21203" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21228:21239" placeholder="### ... ###" />
+                <marker date="1432076893000" expanded="true" signature="21293:21388" placeholder="### ... ###" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newApp.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4488189">
-              <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
-              <folding>
-                <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
-                <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
-                <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
-                <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookmarkedEvents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
+      <file leaf-file-name="eventFinalDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding>
-                <marker date="1404845985000" expanded="true" signature="1776:1791" placeholder="..." />
-              </folding>
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +417,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -130,7 +444,6 @@
         <option value="$PROJECT_DIR$/www/eventsForMuseum.html" />
         <option value="$PROJECT_DIR$/merce/merceReference" />
         <option value="$PROJECT_DIR$/www/closeToYouMuseums.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/main.js" />
         <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/common.js" />
         <option value="maps.gstatic.com/maps-api-v3/api/js/20/11/util.js" />
@@ -138,7 +451,11 @@
         <option value="vm:1398" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1" />
+        <option value="$PROJECT_DIR$/www/bookmarkedEvents.html" />
+        <option value="$PROJECT_DIR$/www/js/metaFunctions.js" />
+        <option value="$PROJECT_DIR$/www/eventFinalDetail.html" />
         <option value="$PROJECT_DIR$/www/js/newApp.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -181,6 +498,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,9 +531,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFArts-Express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -257,7 +592,7 @@
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="showpo&#9;null&#9;null&#10;deviceread&#9;null&#9;null&#10;alert&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -382,25 +717,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="33" width="1558" height="1013" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25504228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26086956" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39932126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -430,21 +765,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
-          <line>420</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
-          <line>409</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
-          <line>950</line>
+          <line>974</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/www/js/newApp.js</url>
+          <line>864</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
@@ -454,26 +784,11 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <marker date="1428437370000" expanded="true" signature="18691:18717" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="18927:18951" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="18976:19003" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19029:19101" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19152:19251" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19278:19288" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19313:19331" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19356:19373" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19398:19436" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19461:19475" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19500:19514" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19539:19553" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19578:19589" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19643:19738" placeholder="### ... ###" />
-          </folding>
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,12 +803,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.ui.datepicker.js">
+    <entry file="file://$PROJECT_DIR$/www/js/jQuery.ui.datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33272728">
           <caret line="33" column="214" selection-start-line="33" selection-start-column="214" selection-end-line="33" selection-end-column="214" />
@@ -672,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/data/new_V4.cfc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -792,11 +1095,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4844517">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/eventFinalDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <marker date="1404845985000" expanded="true" signature="1776:1791" placeholder="..." />
-          </folding>
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,43 +1119,40 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="1.0344827">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
           <folding>
-            <marker date="1428437370000" expanded="true" signature="18691:18717" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="18927:18951" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="18976:19003" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19029:19101" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19152:19251" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19278:19288" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19313:19331" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19356:19373" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19398:19436" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19461:19475" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19500:19514" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19539:19553" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19578:19589" placeholder="### ... ###" />
-            <marker date="1428437370000" expanded="true" signature="19643:19738" placeholder="### ... ###" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4488189">
-          <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
-          <folding>
-            <marker date="1431701906000" expanded="true" signature="10964:10998" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="11083:11098" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="13405:13439" placeholder="..." />
-            <marker date="1431701906000" expanded="true" signature="13523:13538" placeholder="..." />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1432076893000" expanded="true" signature="696:763" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20341:20367" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20577:20601" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20626:20653" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20679:20751" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20802:20901" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20928:20938" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="20963:20981" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21006:21023" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21048:21086" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21111:21125" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21150:21164" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21189:21203" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21228:21239" placeholder="### ... ###" />
+            <marker date="1432076893000" expanded="true" signature="21293:21388" placeholder="### ... ###" />
           </folding>
         </state>
       </provider>
