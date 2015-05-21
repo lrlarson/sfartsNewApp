@@ -16,7 +16,7 @@
         <ul data-role="listview" id="searchResults"><!---inject here ---></ul>
         <script id="searchEventsTemplate" type="x-handlebars-template">
             {{#each data}}
-                <li><a href="eventFinalDetail.html?event_num={{event_num}}">
+                <li><a href="eventFinalDetail.html?event_num={{event_num}}" data-transition="slide">
 
                     <span class="summaryOrgName" style="font-weight:300">{{org_name}}<br /></span>
                     <span class="summaryOrgName" style="font-weight:100; font-size: smaller">{{date_string}}<br /></span>

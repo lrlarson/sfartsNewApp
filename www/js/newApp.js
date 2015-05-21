@@ -285,7 +285,7 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
                         finalArray[i][30] = finalArray[i][30] + ' miles';
                     }
 
-                    htmlContent += '<li> <a href="eventFinalDetail.html?event_num='+finalArray[i][0]+' "><span style="font-size:10px; font-style:italic;">' + finalArray[i][30] + ' from you</span><br /><span class="summaryOrgName" style="font-weight:300">'+finalArray[i][6]+'</span> <br /> ' +finalArray[i][12]+'</li></a>';
+                    htmlContent += '<li> <a href="eventFinalDetail.html?event_num='+finalArray[i][0]+' "><span  class="distance">' + finalArray[i][30] + ' from you</span><br /><span class="summaryOrgName" style="font-weight:300">'+finalArray[i][6]+'</span> <br /> ' +finalArray[i][12]+'</li></a>';
                 }
 
                 $('#eventList').empty();
@@ -352,7 +352,7 @@ $(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
                         finalArray[i][5] = finalArray[i][5] + ' miles';
                     }
 
-                    htmlContent += '<li> <a href="eventsForMuseum.html?id='+finalArray[i][0]+' "><span style="font-size:10px; font-style:italic;">' + finalArray[i][5] + ' from you</span><br /><span class="summaryOrgName" style="font-weight:300">'+finalArray[i][1]+'</span> <br /> </li></a>';
+                    htmlContent += '<li><a href="eventsForMuseum.html?id='+finalArray[i][0]+' "><span class="distance" >' + finalArray[i][5] + ' from you</span><br /><span class="museumName" >'+finalArray[i][1]+'</span> <br /> </li></a>';
                 }
 
                 $('#eventList').empty();

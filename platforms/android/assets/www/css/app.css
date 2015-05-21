@@ -1,39 +1,154 @@
 @charset "UTF-8";
 
-body {
-
-    font: 14px/1.3 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; }
-
-
-.topOfPage{
-    font-size: 48px;
-    text-align: center;
-    padding-bottom: 0px;
+.logo {
+    height: 3.7em !important;
+    background: url('images/logo_sfarts.svg') 50% 50% no-repeat;
+    background-color: #27AE60;
 }
 
-
-.logoText{
-	font-weight: 300;
-	font-size: 16px;
-	text-align: center;
-	padding-bottom: 30px;
-	font-style: italic;
-	padding-top: 10px;
+.slogan {
+    background: url('images/logo_sfarts_slogan.svg') 50% 50% no-repeat;
 }
 
+strong {
+    font-family:"Avenir Next LT W01 Demi";
+}
 
-.count{font-size:12px; font-style:italic}
+.date {
+    font-size:13px; color:#004EBC; padding-left: 20px; border-left-width: 40px; font-weight: 200;
+}
 
-.headerSmall{font-size:10px}
+.ui-header {
+    background: #27AE60 url('images/logo_sfarts_icon.svg') 100% 50% no-repeat !important;
+}
 
-td { border-bottom:1px solid #CCC}
+.ui-listview > li:active .date,
+{
+    color: #fff;
+}
+
+.subheader {
+    min-height: 20px;
+    background-color: #269955;
+    color: white;
+    font-size:11px; 
+    font-family: "AvenirNextLTW01-Regular" !important;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-top: 13px;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.green {
+    background-color: #27AE60 !important;
+}
+
+#eventDetailBlock,
+#editorialStory {
+    margin-top: 20px;
+}
+
+#storyTitle,
+.eventName {
+    font-size: 24px;
+    font-family:"Avenir Next LT W01 Demi";
+    text-align: center !important;
+    line-height: 1.2em;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.orgName {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "AvenirNextLTW01-Regular", Helvetica, sans-serif;
+  text-align: center !important;
+  color: #004EBC;
+}
+
+.summaryOrgName {
+   font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "AvenirNextLTW01-Regular", Helvetica, sans-serif;
+  color: #004EBC;
+}
+
+#infoBox {
+  background: #fff;
+  border: none;
+  color: #004EBC;
+  padding: 20px;
+  text-align: center;
+  font-family: "AvenirNextLTW01-Regular";
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#storyText,
+.eventDescription {
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+#storyText {
+    margin-bottom: 20px !important;
+}
+
+#story img {
+    display: table-cell;
+    clear: both;
+    margin: 1.2em auto;
+    width: 100%;
+}
+
+.large-thumb {
+    width: 100%;
+    height: auto;
+}
+
+.count {
+    font-size:12px; 
+    font-style:italic
+}
+
+.headerSmall{
+    font-size:10px
+}
+
+td { 
+    border-bottom: 1px solid #CCC
+}
 
 .summaryOrgName{ font-weight:300
 }
-
-
 
 .centerPhoto{
     margin-left: 40px !important;
 
 }
+
+#details-header {
+  height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "AvenirNextLTW01-Regular", Helvetica, sans-serif;
+  text-align: center !important;
+  color: #fff;
+  background-color: #004EBC;
+  margin: 35px -30px 0 -30px;
+  padding-top: 20px;
+}
+
+#details {
+    padding: 30px;
+    background-color: #e6eef8;
+    margin: 0px -30px -1em -30px;
+}
+

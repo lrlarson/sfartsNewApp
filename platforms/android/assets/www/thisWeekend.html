@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>SF/Arts :: Guide to San Francisco Arts</title>
 <head>
 
 </head>
@@ -9,8 +9,9 @@
 <body>
 <div data-role="page" id="thisWeekendsEventsList" >
     <div data-role="header" data-add-back-btn="true">
-        <h1>This Weekend <br />in <span id="weekendDisp"></span> </h1>
+        <h1>This Weekend</h1>
     </div>
+    <div class="subheader"><span id="weekendDisp"></span></div>
     <div data-role="content">
         <ul data-role="listview" id="weekendEvents"><!--- inject here ---></ul>
 
@@ -26,14 +27,13 @@
 
     </div>
     <div data-role="footer" data-id="allot_footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="bottom">
+         <div data-role="navbar">
             <ul>
-                <li><a href="index.html" data-id="footer_browse" data-theme="b" data-icon="grid">Browse</a></li>
-                <li><a href="index.html#keywordPage" data-id="footer_find" data-theme="b" data-icon="search">Search</a></li>
-                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-theme="b" data-icon="heart">Bookmarks</a></li>
-                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-theme="b" data-icon="navigation">Nearby</a></li>
+                <li><a href="index.html" data-id="footer_browse" data-icon="bars" data-iconpos="notext" class="ui-state-persist" data-transition="slide"></a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-icon="location" data-iconpos="notext" data-transition="slide"></a></li>   
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-icon="star" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-icon="search" data-iconpos="notext" data-transition="slide"></a></li>                
             </ul>
-        </div>
     </div>
 </div>
 </body>

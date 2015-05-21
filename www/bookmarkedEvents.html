@@ -41,7 +41,6 @@ $(document).ready(function(e) {
             ul.setAttribute('data-role', 'listview');
             ul.setAttribute('id', 'list');
             for (var i = 0; i < bookMarks.length; i++) {
-                //console.log(bookMarks[i].eventName);
                 htmlString += '<li><a href = "eventFinalDetail.html?event_num=' + bookMarks[i].event_num + '">';
                 htmlString += '<span class="summaryOrgName" style="font-weight:300">' + bookMarks[i].org_name;
                 htmlString += '</span><br>' + bookMarks[i].eventName + '</a></li>';

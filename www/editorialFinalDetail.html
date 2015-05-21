@@ -20,11 +20,12 @@
         <script id="storyDetailTemplate" type="x-handlebars-template">
             {{#each data}}
             <div id="storyTitle"><span id="title">{{title}}</span></div>
+            <div class="orgName">{{org_name}} </div><br />
             <div id="story">
-                <img src="{{imagename}}">
+                <img src="{{imagenametravel}}">
                 <span id="storyText">{{storytext}}</span><p>&nbsp;</p></div>
             <div id="details">
-            <a href="eventFinalDetail.html?event_num={{event}}"  data-role="button" data-mini="true" data-theme="b">Event Details</a>
+            <a href="eventFinalDetail.html?event_num={{event}}"  data-role="button" data-mini="true" data-theme="b" data-transition="slide">Event Details</a>
             </div>
             {{/each}}
         </script>

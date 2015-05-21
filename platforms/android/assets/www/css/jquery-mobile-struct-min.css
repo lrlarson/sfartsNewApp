@@ -90,24 +90,25 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
     position: fixed;
     top: 50%;
     left: 50%;
-    border: 0
+    border: 0;
+    border-style: none;
 }
 
 .ui-loader-default {
-    background: 0;
-    filter: Alpha(Opacity=18);
-    opacity: .18;
+    background: #fff;
+    filter: Alpha(Opacity=100);
+    opacity: 1;
     width: 2.875em;
     height: 2.875em;
     margin-left: -1.4375em;
-    margin-top: -1.4375em
+    margin-top: -1.4375em;
+    border-style: none;
 }
 
 .ui-loader-verbose {
     width: 12.5em;
     filter: Alpha(Opacity=88);
     opacity: .88;
-    box-shadow: 0 1px 1px -1px #fff;
     height: auto;
     margin-left: -6.875em;
     margin-top: -2.6875em;
@@ -128,14 +129,15 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-loader .ui-icon-loading {
-    background-color: #000;
+    background-color: #fff;
     display: block;
     margin: 0;
     width: 2.75em;
     height: 2.75em;
     padding: .0625em;
     -webkit-border-radius: 2.25em;
-    border-radius: 2.25em
+    border-radius: 2.25em;
+    border-style: none;
 }
 
 .ui-loader-verbose .ui-icon-loading {
@@ -173,26 +175,25 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-header, .ui-footer {
-    border-width: 1px 0;
-    border-style: solid;
     position: relative
 }
 
 .ui-header:empty, .ui-footer:empty {
-    min-height: 2.6875em
+    min-height: 4em
 }
 
 .ui-header .ui-title, .ui-footer .ui-title {
     font-size: 1em;
-    min-height: 1.1em;
+    min-height: 1em;
     text-align: center;
     display: block;
-    margin: 0 30%;
-    padding: .7em 0;
+    margin: 0 15%;
+    padding: 1.2em 0;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    outline: 0 !important
+    outline: 0 !important;
+    width: 70% !important;
 }
 
 .ui-footer .ui-title {
@@ -303,8 +304,8 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
     content: "";
     position: absolute;
     display: block;
-    width: 22px;
-    height: 22px
+    width: 25px;
+    height: 25px
 }
 
 .ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
@@ -317,7 +318,8 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-btn-icon-right:after {
-    right: .5625em
+    right: .5625em;
+    display: none;
 }
 
 .ui-mini.ui-btn-icon-left:after, .ui-mini .ui-btn-icon-left:after, .ui-header .ui-btn-icon-left:after, .ui-footer .ui-btn-icon-left:after {
@@ -343,7 +345,7 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 
 .ui-header .ui-btn-left, .ui-header .ui-btn-right, .ui-btn-left > [class*=ui-], .ui-btn-right > [class*=ui-] {
-    margin: 0
+    margin: 8px;
 }
 
 .ui-btn-left, .ui-btn-right {
@@ -1758,7 +1760,9 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 }
 
 .ui-navbar {
-    max-width: 100%
+    max-width: 100%;
+    height: 50px;
+    margin-top: 8px;
 }
 
 .ui-navbar ul:before, .ui-navbar ul:after {
@@ -2583,7 +2587,7 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 .ui-listview, .ui-listview > li {
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
 }
 
 .ui-content .ui-listview, .ui-panel-inner > .ui-listview {
@@ -2605,7 +2609,13 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 .ui-listview > li {
     display: block;
     position: relative;
-    overflow: visible
+    overflow: visible;
+}
+
+.ui-listview > li > a {
+    min-height: 20px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
@@ -2727,10 +2737,10 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 .ui-li-count {
     position: absolute;
     font-size: 12.5px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
-    border-width: 1px;
-    border-style: solid;
+    border: none;
+    background-color: rgba(255,255,255,1)
     padding: 0 .48em;
     line-height: 1.6em;
     min-height: 1.6em;
@@ -2741,7 +2751,7 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
 }
 
 .ui-listview .ui-btn-icon-right .ui-li-count {
-    right: 3.2em
+    right: 5px;
 }
 
 .ui-listview .ui-li-has-thumb > img:first-child, .ui-listview .ui-li-has-thumb > .ui-btn > img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {

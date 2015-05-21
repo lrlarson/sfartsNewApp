@@ -42,3 +42,39 @@ message: The operation couldn’t be completed. (kCLErrorDomain error 0.)
 2015-05-20 13:26:32.830 SFArts-Express[6548:262544] Communications error: <OS_xpc_error: <error: 0x32995f4> { count = 1, contents =
 	"XPCErrorDescription" => <string: 0x329983c> { length = 22, contents = "Connection interrupted" }
 }>
+2015-05-20 15:25:39.946 SFArts-Express[23779:382337] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lrlarson/Library/Developer/CoreSimulator/Devices/3419DF18-FACC-4B27-B18E-EE7E43CC6DFD/data/Containers/Data/Application/4812BE00-65A8-42DE-8E53-8F47DBA88B82/Library/Cookies/Cookies.binarycookies
+2015-05-20 15:25:40.225 SFArts-Express[23779:382337] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-20 15:25:40.226 SFArts-Express[23779:382337] Multi-tasking -> Device: YES, App: YES
+2015-05-20 15:25:40.239 SFArts-Express[23779:382337] Unlimited access to network resources
+2015-05-20 15:25:40.710 SFArts-Express[23779:382337] [CDVTimer][splashscreen] 152.903020ms
+2015-05-20 15:25:40.716 SFArts-Express[23779:382337] [CDVTimer][statusbar] 5.228996ms
+2015-05-20 15:25:40.716 SFArts-Express[23779:382337] [CDVTimer][TotalPluginStartup] 158.535957ms
+2015-05-20 15:25:40.874 SFArts-Express[23779:382337] Resetting plugins due to page load.
+2015-05-20 15:25:42.875 SFArts-Express[23779:382337] Finished load of: file:///Users/lrlarson/Library/Developer/CoreSimulator/Devices/3419DF18-FACC-4B27-B18E-EE7E43CC6DFD/data/Containers/Bundle/Application/AC295A00-D297-4AFD-BC75-AAD6ED6C5FCE/SFArts-Express.app/www/index.html
+2015-05-20 15:25:42.895 SFArts-Express[23779:382337] in init page
+2015-05-20 15:25:42.895 SFArts-Express[23779:382337] code: 2
+message: 
+2015-05-20 15:25:42.899 SFArts-Express[23779:382337] locationManager::didFailWithError (null)
+2015-05-20 15:25:42.901 SFArts-Express[23779:382337] code: 2
+message: The operation couldn’t be completed. (kCLErrorDomain error 0.)
+2015-05-20 15:26:09.486 SFArts-Express[23779:382337] CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 15:26:09.486 SFArts-Express[23779:382337] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 15:26:24.734 SFArts-Express[23779:382337] CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 15:26:24.734 SFArts-Express[23779:382337] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 15:26:31.528 SFArts-Express[23779:382337] CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 15:26:31.528 SFArts-Express[23779:382337] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-05-20 16:54:33.109 SFArts-Express[27400:457258] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lrlarson/Library/Developer/CoreSimulator/Devices/3419DF18-FACC-4B27-B18E-EE7E43CC6DFD/data/Containers/Data/Application/5BA3E146-520A-4416-AA25-E4C13CD5AEA5/Library/Cookies/Cookies.binarycookies
+2015-05-20 16:54:33.364 SFArts-Express[27400:457258] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-20 16:54:33.365 SFArts-Express[27400:457258] Multi-tasking -> Device: YES, App: YES
+2015-05-20 16:54:33.378 SFArts-Express[27400:457258] Unlimited access to network resources
+2015-05-20 16:54:33.866 SFArts-Express[27400:457258] [CDVTimer][splashscreen] 151.467979ms
+2015-05-20 16:54:33.872 SFArts-Express[27400:457258] [CDVTimer][statusbar] 5.622029ms
+2015-05-20 16:54:33.872 SFArts-Express[27400:457258] [CDVTimer][TotalPluginStartup] 157.372952ms
+2015-05-20 16:54:33.998 SFArts-Express[27400:457258] Resetting plugins due to page load.
+2015-05-20 16:54:35.420 SFArts-Express[27400:457258] Finished load of: file:///Users/lrlarson/Library/Developer/CoreSimulator/Devices/3419DF18-FACC-4B27-B18E-EE7E43CC6DFD/data/Containers/Bundle/Application/39CD663C-732B-4DDD-8ECB-79C0D499DE3C/SFArts-Express.app/www/index.html
+2015-05-20 16:54:35.437 SFArts-Express[27400:457258] in init page
+2015-05-20 16:54:35.437 SFArts-Express[27400:457258] code: 2
+message: 
+2015-05-20 16:54:35.442 SFArts-Express[27400:457258] locationManager::didFailWithError (null)
+2015-05-20 16:54:35.449 SFArts-Express[27400:457258] code: 2
+message: The operation couldn’t be completed. (kCLErrorDomain error 0.)

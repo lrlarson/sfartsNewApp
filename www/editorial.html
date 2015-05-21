@@ -31,7 +31,7 @@
         <ul data-role="listview" id="podsList"><!--- insert template here ---></ul>
         <script id="podstemplate" type="x-handlebars-template">
             {{#each data}}
-                <li><a href="editorialFinalDetail.html?id={{editorial_num}}"><img src="{{imagenamelarge}}" style="max-width: 7em; " ><span style=" padding-left: 20px; border-left-width: 40px;"  >{{title}}</span>
+                <li><a href="editorialFinalDetail.html?id={{editorial_num}}" data-transition="slide"><img src="{{imagenamelarge}}" style="max-width: 8em; " ><span style=" padding-left: 30px; border-left-width: 40px;"  >{{title}}</span>
                     <br />
                     <span class="date">{{date_string}}</span></a></li>
             {{/each}}

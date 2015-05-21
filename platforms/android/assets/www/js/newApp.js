@@ -1,3 +1,10 @@
+$(document).on('pagebeforeshow', function () {
+    $.mobile.activePage.find(".ui-header a.ui-btn-left").addClass("ui-btn-icon-notext");
+    $.mobile.activePage.find(".ui-header a.ui-btn-left").removeClass("ui-btn-icon-left");
+});
+
+
+
 //var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var myGlobalLocation = '';
@@ -1287,9 +1294,9 @@ Handlebars.registerHelper("isTicketLink", function (ticketlink) {
 });
 
 
-Handlebars.registerHelper("isPhoto", function (imagenamelarge) {
-    if (imagenamelarge) {
-        var string = '<img src="' + imagenamelarge +'" class="centerPhoto"  /> <br /><br />';
+Handlebars.registerHelper("isPhoto", function (imagenametravel) {
+    if (imagenametravel) {
+        var string = '<img src="' + imagenametravel +'" class="large_thumb"  /> <br /><br />';
         return string;
     }
 
