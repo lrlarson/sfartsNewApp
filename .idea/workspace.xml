@@ -11,242 +11,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf98491-931b-4975-9069-628a26298f78" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/bower_components/jquery-mobile-bower/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/bower_components/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/lato-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/newTheme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/newTheme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/jquery-mobile-bower/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/closeToYou.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/closeToYouMuseums.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-land-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-land-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-land-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-land-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-port-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-port-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-port-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-port-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/org/larsonassoc/SFarts_Express/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/org/larsonassoc/SFarts_Express/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-568h@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-667h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape-736h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Landscape~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default-Portrait~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default@2x~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/splash/Default~iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/Flat-UI-Icons-24.ttf" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/Flat-UI-Icons-24.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/Flat-UI-Icons-24.woff" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/fonts/Flat-UI-Icons-24.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.xcworkspace/xcuserdata/lrlarson.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/action-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/action-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/action-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/action-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/ajax-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/alert-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/alert-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/alert-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/alert-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/animated-overlay.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-l-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-l-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-l-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-l-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-r-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-r-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-r-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-r-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-d-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-l-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-l-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-l-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-l-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-r-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-r-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-r-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-r-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-l-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-l-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-l-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-l-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-r-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-r-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-r-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-r-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/arrow-u-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/audio-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/audio-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/audio-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/audio-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/back-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/back-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/back-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/back-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bars-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bars-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bars-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bars-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bullets-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bullets-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bullets-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/bullets-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/calendar-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/calendar-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/calendar-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/calendar-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/camera-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/camera-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/camera-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/camera-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-d-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-d-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-d-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-d-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-l-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-l-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-l-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-l-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-r-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-r-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-r-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-r-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-u-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-u-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-u-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/carat-u-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/check-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/check-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/check-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/check-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/clock-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/clock-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/clock-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/clock-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/cloud-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/cloud-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/cloud-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/cloud-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/comment-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/comment-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/comment-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/comment-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/delete-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/delete-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/delete-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/delete-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/edit-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/edit-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/edit-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/edit-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/eye-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/eye-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/eye-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/eye-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forbidden-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forbidden-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forbidden-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forbidden-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forward-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forward-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forward-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/forward-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/gear-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/gear-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/gear-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/gear-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/grid-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/grid-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/grid-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/grid-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/heart-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/heart-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/heart-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/heart-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/home-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/home-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/home-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/home-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-50@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-60@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-76@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon-small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon.png" afterPath="$PROJECT_DIR$/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/Resources/icons/icon@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-18-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-18-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-36-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-36-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/info-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/info-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/info-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/info-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/location-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/location-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/location-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/location-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/lock-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/lock-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/lock-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/lock-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/mail-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/mail-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/mail-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/mail-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/minus-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/minus-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/minus-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/minus-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/navigation-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/navigation-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/navigation-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/navigation-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/phone-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/phone-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/phone-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/phone-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/plus-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/plus-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/plus-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/plus-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/power-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/power-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/power-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/power-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/recycle-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/recycle-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/recycle-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/recycle-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/refresh-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/refresh-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/refresh-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/refresh-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/search-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/search-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/search-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/search-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/shop-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/shop-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/shop-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/shop-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splash.png" afterPath="$PROJECT_DIR$/splash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/star-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/star-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/star-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/star-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/tag-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/tag-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/tag-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/tag-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_222222_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/user-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/user-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/user-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/user-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/video-black.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/video-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/video-white.png" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/images/icons-png/video-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-7a14d40b2c2081341bcf37d7e050386f.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-7a14d40b2c2081341bcf37d7e050386f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable/icon.png" afterPath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-hdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-ldpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-mdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/ant-build/res/drawable-xhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express/SFArts-Express-Info.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/app.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/app.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/app.css" afterPath="$PROJECT_DIR$/www/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/bookmarkedEvents.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/bookmarkedEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/bookmarkedEvents.html" afterPath="$PROJECT_DIR$/platforms/ios/www/bookmarkedEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bookmarkedEvents.html" afterPath="$PROJECT_DIR$/www/bookmarkedEvents.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/byDateEventSummary.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/byDateEventSummary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/closeToYou.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/closeToYou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/closeToYouMuseums.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/closeToYouMuseums.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/console.log" afterPath="$PROJECT_DIR$/platforms/ios/cordova/console.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/datepicker.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/datepicker.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/datepicker.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/editorial.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/editorial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/editorial.html" afterPath="$PROJECT_DIR$/platforms/ios/www/editorial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/editorial.html" afterPath="$PROJECT_DIR$/www/editorial.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/editorialFinalDetail.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/editorialFinalDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/editorialFinalDetail.html" afterPath="$PROJECT_DIR$/platforms/ios/www/editorialFinalDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/editorialFinalDetail.html" afterPath="$PROJECT_DIR$/www/editorialFinalDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/eventFinalDetail.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/eventFinalDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/eventsByDateDetail.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/eventsByDateDetail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/eventsForMuseum.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/eventsForMuseum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/eventsForMuseum.html" afterPath="$PROJECT_DIR$/platforms/ios/www/eventsForMuseum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/eventsForMuseum.html" afterPath="$PROJECT_DIR$/www/eventsForMuseum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/fastclick.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/fastclick.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery-mobile-struct-min.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery-mobile-struct-min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/jquery-ui-1.10.4.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.datepicker.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/ui-lightness/jquery-ui-1.10.4.custom.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.flatui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.flatui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/www/css/jquery.mobile.flatui.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/jquery.mobile.icons.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/mapDisplay2.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/mapDisplay2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/jquery.mobile.icons.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/neighborhood.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/neighborhood.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/neighborhood.html" afterPath="$PROJECT_DIR$/platforms/ios/www/neighborhood.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/neighborhood.html" afterPath="$PROJECT_DIR$/www/neighborhood.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/newApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/newApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/newApp.js" afterPath="$PROJECT_DIR$/www/js/newApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/SFArts-Express.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/searchReturn.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/searchReturn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/searchReturn.html" afterPath="$PROJECT_DIR$/platforms/ios/www/searchReturn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/searchReturn.html" afterPath="$PROJECT_DIR$/www/searchReturn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/thisWeekend.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/thisWeekend.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/todaysEvents.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/todaysEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/todaysEvents.html" afterPath="$PROJECT_DIR$/platforms/ios/www/todaysEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todaysEvents.html" afterPath="$PROJECT_DIR$/www/todaysEvents.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SFArts-Express.iws" />
@@ -271,26 +95,36 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25">
-              <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1432238740000" expanded="true" signature="696:763" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22095:22121" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22331:22355" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22380:22407" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22433:22505" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22556:22655" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22682:22692" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22717:22735" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22760:22777" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22802:22840" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22865:22879" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22904:22918" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22943:22957" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="22982:22993" placeholder="### ... ###" />
-                <marker date="1432238740000" expanded="true" signature="23047:23142" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="851:918" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22340:22366" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22576:22600" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22625:22652" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22678:22750" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22801:22900" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22927:22937" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="22962:22980" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23005:23022" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23047:23085" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23110:23124" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23149:23163" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23188:23202" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23227:23238" placeholder="### ... ###" />
+                <marker date="1432650911000" expanded="true" signature="23292:23387" placeholder="### ... ###" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33175355">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -305,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newApp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newApp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9026403">
-              <caret line="292" column="43" selection-start-line="292" selection-start-column="43" selection-end-line="292" selection-end-column="43" />
+            <state vertical-scroll-proportion="-15.814815">
+              <caret line="284" column="73" selection-start-line="284" selection-start-column="73" selection-end-line="284" selection-end-column="73" />
               <folding>
                 <marker date="1432241209000" expanded="true" signature="8392:8407" placeholder="..." />
               </folding>
@@ -333,20 +167,6 @@
             <state vertical-scroll-proportion="-8.25">
               <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookmarkedEvents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/bookmarkedEvents.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.75">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-              <folding>
-                <marker date="1432239121000" expanded="true" signature="1847:1862" placeholder="..." />
-                <marker date="1432239121000" expanded="true" signature="2315:2330" placeholder="..." />
-                <marker date="1432239121000" expanded="true" signature="2673:2688" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -419,7 +239,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1" />
         <option value="$PROJECT_DIR$/www/js/metaFunctions.js" />
         <option value="$PROJECT_DIR$/www/eventFinalDetail.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/neighborhood.html" />
         <option value="$PROJECT_DIR$/www/bookmarkedEvents.html" />
         <option value="$PROJECT_DIR$/www/eventsForMuseum.html" />
@@ -428,6 +247,8 @@
         <option value="$PROJECT_DIR$/www/editorial.html" />
         <option value="$PROJECT_DIR$/www/searchReturn.html" />
         <option value="$PROJECT_DIR$/www/js/newApp.js" />
+        <option value="$PROJECT_DIR$/www/css/app.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -517,7 +338,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -692,7 +513,7 @@
     <frame x="82" y="33" width="1558" height="1013" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25504228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25504228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -700,7 +521,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22381477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1013,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/neighborhood.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.5">
@@ -1042,9 +855,9 @@
         <state vertical-scroll-proportion="-28.75">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <marker date="1432239121000" expanded="true" signature="1847:1862" placeholder="..." />
-            <marker date="1432239121000" expanded="true" signature="2315:2330" placeholder="..." />
-            <marker date="1432239121000" expanded="true" signature="2673:2688" placeholder="..." />
+            <marker date="1432239121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432239121000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1432239121000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1062,31 +875,6 @@
         <state vertical-scroll-proportion="-6.375">
           <caret line="22" column="100" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1432238740000" expanded="true" signature="696:763" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22095:22121" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22331:22355" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22380:22407" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22433:22505" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22556:22655" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22682:22692" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22717:22735" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22760:22777" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22802:22840" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22865:22879" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22904:22918" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22943:22957" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="22982:22993" placeholder="### ... ###" />
-            <marker date="1432238740000" expanded="true" signature="23047:23142" placeholder="### ... ###" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,11 +920,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/newApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9026403">
-          <caret line="292" column="43" selection-start-line="292" selection-start-column="43" selection-end-line="292" selection-end-column="43" />
+        <state vertical-scroll-proportion="-15.814815">
+          <caret line="284" column="73" selection-start-line="284" selection-start-column="73" selection-end-line="284" selection-end-column="73" />
           <folding>
             <marker date="1432241209000" expanded="true" signature="8392:8407" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1432650911000" expanded="true" signature="851:918" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22340:22366" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22576:22600" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22625:22652" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22678:22750" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22801:22900" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22927:22937" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="22962:22980" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23005:23022" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23047:23085" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23110:23124" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23149:23163" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23188:23202" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23227:23238" placeholder="### ... ###" />
+            <marker date="1432650911000" expanded="true" signature="23292:23387" placeholder="### ... ###" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33175355">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

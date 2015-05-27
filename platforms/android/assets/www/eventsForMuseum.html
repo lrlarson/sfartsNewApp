@@ -16,7 +16,7 @@
 
         <script id="museumEventsTemplate" type="x-handlebars-template">
             {{#each data}}
-            <li><a href="eventFinalDetail.html?event_num={{event_num}}">
+            <li><a href="eventFinalDetail.html?event_num={{event_num}}" data-transition="slide">
                 <span class="summaryOrgName" style="font-weight:300">{{event_name}}<br /></span>
                 {{date_string}}
             </a></li>
