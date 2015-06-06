@@ -62,4 +62,5 @@
     <preference name="Orientation" value="default" />
     <preference name="BackgroundColor" value="0xff0000ff" />
     <preference name="BackupWebStorage" value="local" />
+    <preference name="SplashScreen" value="screen" />
 </widget>
