@@ -38,7 +38,35 @@ function onDeviceReady() {
            //alert('IOS')
             navigator.geolocation.getCurrentPosition(onSuccess, onError);
         }
+    // Mock device.platform property if not available
+    if (!window.device) {
+        window.device = { platform: 'Browser' };
+    }
 
+    //handleExternalURLs();
+}
+
+function handleExternalURLs() {
+    // Handle click events for all external URLs
+    if (device.platform.toUpperCase() === 'ANDROID') {
+        $(document).on('click', 'a[href^="http"]', function (e) {
+            var url = $(this).attr('href');
+            navigator.app.loadUrl(url, { openExternal: true });
+            e.preventDefault();
+        });
+    }
+    else if (device.platform.toUpperCase() === 'IOS') {
+        //alert('IN IOS');
+        $(document).on('click', 'a[href^="http"]', function (e) {
+            //alert('onClick');
+            var url = $(this).attr('href');
+            window.open(url, '_blank','location=yes');
+            e.preventDefault();
+        });
+    }
+    else {
+       alert('Browser');
+    }
 }
 
 
@@ -1287,7 +1315,7 @@ Handlebars.registerHelper("isVenuePhone", function (venue_phone) {
 
 Handlebars.registerHelper("isTicketLink", function (ticketlink) {
     if (ticketlink) {
-        var string = ' <a href="' + ticketlink + '" data-role="button" data-mini="true" data-theme="b"target="_blank">More Ticket Information</a>'
+        var string = ' <a href="' + ticketlink + '" data-role="button" data-mini="true" data-theme="b">More Ticket Information</a>'
         return string;
     }
 
@@ -1304,7 +1332,8 @@ Handlebars.registerHelper("isPhoto", function (imagenametravel) {
 
 Handlebars.registerHelper("isWebSite", function (org_web) {
     if (org_web) {
-        var string = ' <a href="' + org_web + '" data-role="button" data-mini="true" data-theme="b" target="_blank">Event Website</a>'
+        //var string = '<a href="#" id="infoTEst" data-role="button" data-mini="true" data-theme="b" onclick="window.open("org_web", "_blank","location=yes")">Bookmark</a>'
+        var string = '';
         return string;
     }
 
