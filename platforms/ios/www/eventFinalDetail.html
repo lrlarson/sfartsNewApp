@@ -30,8 +30,12 @@
         <span class="venueAddress">{{venue_address}},{{venue_city}}{{{isVenuePhone venue_phone}}}</span></div>
         <a href="mapDisplay2.html?eventLatLong={{lat_lon}}" data-role="button" data-mini="true" data-theme="b">Map</a>
         <a href="#" id="bookmarkButton" data-role="button" data-mini="true" data-theme="b">Bookmark</a>
-        {{{isTicketLink ticketlink}}}
-        {{{isWebSite org_web}}}
+        {{#if ticketlink}}
+        <a href="#" id="ticketTest" data-role="button" data-mini="true" data-theme="b" onclick="window.open('{{ticketlink}}', '_blank','location=yes')">Ticket Info.</a>
+        {{/if}}
+        {{#if org_web}}
+        <a href="#" id="infoTEst" data-role="button" data-mini="true" data-theme="b" onclick="window.open('{{org_web}}', '_blank','location=yes')">Event Website</a>
+        {{/if}}
         </div>
         {{/each}}
         </script>

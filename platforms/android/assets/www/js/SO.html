@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>App</title>
+    <link rel="stylesheet" href="plugin/jquery-mobile/jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" charset="utf-8" src="plugin/cordova/cordova-2.0.0.js"></script>
+    <script src="plugin/jquery-mobile/jquery-1.11.1.min.js"></script>
+    <script src="plugin/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady() {
+            $(document).on("click", "button#login", function () {
+                homePage();
+            });
+            function homePage() {
+                $.mobile.loading("show");
+                $.ajax({
+                    url: "http://.../abcd/authenticate.php",
+                    type: "POST",
+                    data: "username=" + $("#username").val() + "&password=" + $("#password").val(),
+                    dataType: "jsonp",
+                    success: function (status) {
+                        if (status.success == "true") {
+                            location.href = 'home.html';
+                        } else {
+                            location.href = 'nilai.html';
+                        }
+                    },
+                    timeout: 30000,
+                    error: function () {
+                        alert("error..");
+                    }
+
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="content">
+        <label>Username:</label>
+        <input type="text" name="username" id="username">
+        <label>Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <button type="button" id="login" class="ui-btn ui-corner-all">Login</button>
+    </div>
+</div>
+</body>
+</html>

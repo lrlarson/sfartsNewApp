@@ -29,13 +29,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
-        "id": "org.apache.cordova.inappbrowser.inappbrowser",
-        "clobbers": [
-            "window.open"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.geolocation/www/Coordinates.js",
         "id": "org.apache.cordova.geolocation.Coordinates",
         "clobbers": [
@@ -91,6 +84,14 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -99,11 +100,11 @@ module.exports.metadata =
     "org.apache.cordova.console": "0.2.9",
     "org.apache.cordova.device": "0.2.10",
     "org.apache.cordova.dialogs": "0.2.8",
-    "org.apache.cordova.inappbrowser": "0.5.3",
     "org.apache.cordova.geolocation": "0.3.11",
     "org.apache.cordova.network-information": "0.2.14",
     "org.apache.cordova.splashscreen": "0.3.5",
-    "org.apache.cordova.statusbar": "0.1.9"
+    "org.apache.cordova.statusbar": "0.1.9",
+    "cordova-plugin-inappbrowser": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

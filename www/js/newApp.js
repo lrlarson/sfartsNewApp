@@ -27,7 +27,7 @@ function onDeviceReady() {
     var devicePlatform = device.platform;
     checkConnection();
     //alert('deviceReady');
-    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    //navigator.geolocation.getCurrentPosition(onSuccess, onError);
     var options = { timeout: 31000, enableHighAccuracy: true, maximumAge: 90000 };
     if (devicePlatform == 'Android'){
         //alert('android');
@@ -83,20 +83,7 @@ function onResume() {
 
 document.addEventListener("offline", onOffline, false);
 
-/*
-function initPage(){
-    checkDatesInBookmarks();
-    console.log('initPage');
-    currentDate = moment().format('MM/DD/YYYY');
-    getEventsForToday(currentDate);
-    getEventsForThisWeekend();
-    getEventHighlights();
 
-    getBookMarksCount();
-    getNeighborhoodCount();
-
-}
-*/
 
 function checkDatesInBookmarks() {
     var now = moment();
@@ -190,16 +177,43 @@ $(document).on('pageshow', "#pageMap",function () {
         });
 
 var onSuccess = function(position) {
-    //alert('success');
+    //alert('onSuccess');
     myGlobalLocation = position;
+    punchInGPS();
 };
 
+var punchInGPS = function (){
+    //alert('in punch in');
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'punchInGPS',
+            returnFormat: 'json',
+            lat:myGlobalLocation.coords.latitude,
+            lon:myGlobalLocation.coords.longitude
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            //alert('gps punched');
+        },
+        error: function (error) {
+            //alert('error; ' + eval(error));
+        }
+    });
+
+}
 
 
 function initialize(eventLatlng) {
 
     //create proper lat lon object
-    //alert('success');
+    //alert('initialize success');
+
+
+
+
     var bits = eventLatlng.split(/,\s*/);
     point = new google.maps.LatLng(parseFloat(bits[0]),parseFloat(bits[1]));
 
@@ -521,7 +535,6 @@ $(document).on('pagebeforeshow', "#specDateEventsListDetail",function () {
 
 //specDateSummaryPage
 $(document).on('pagebeforeshow', "#specDateSummaryPage",function () {
-    // alert('pageshow');
     var parameters = $(this).data("url").split("?")[1];
     date = parameters.replace("selectedDate=", "");
     dateDecoded = decodeURIComponent(date);
@@ -542,7 +555,6 @@ $(document).on('pagebeforeshow', "#specDateSummaryPage",function () {
             for (var i=0;i<workReturn.data.length;i++){
                 workReturn.data[i].dt = dateDecoded;
             }
-            //console.log(workReturn);
 
 
 
