@@ -13,6 +13,9 @@
     <preference name="StatusBarBackgroundColor" value="#cccccc" />
     <preference name="Fullscreen" value="false" />
     <preference name="Orientation" value="default" />
+    <platform name="ios">
+        <preference name="Orientation" value="all" />
+    </platform>
     <!-- for android-->
     <preference name="BackgroundColor" value="0xff0000ff"/>
     <!-- for iOS-->

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>SF/Arts :: Guide to San Francisco Arts</title>
+<head>
+
+</head>
+
+<body>
+<div data-role="page" id="museumPage" >
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Current Museums Exhibitions </h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" id="museumList"><!-- inject here ---></ul>
+        <script id="museumTemplate" type="x-handlebars-template">
+            <li><a href="closeToYouMuseums.html" data-transition="slide"><span style="color: #27AE60">View by Distance from You</span></a></li>
+            {{#each data}}
+            <li><a href="eventsForMuseum.html?id={{org_num}}" data-transition="slide">{{org_name}}</a></li>
+            {{/each}}
+        </script>
+
+
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-icon="bars" data-iconpos="notext" class="ui-state-persist" data-transition="slide"></a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-icon="location" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-icon="star" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-icon="search" data-iconpos="notext" data-transition="slide"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

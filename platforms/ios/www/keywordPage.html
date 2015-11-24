@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>SF/Arts :: Guide to San Francisco Arts</title>
+<head>
+
+</head>
+
+<body>
+<div data-role="page" id="keywordPage">
+    <div data-role="header" data-add-back-btn="true">
+        <h1>Search by Keyword</h1>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <form action="searchReturn.html" method="get" name="searchText">
+                <label >Search Term:&nbsp;</label>
+                <input type="text" name="searchText" id="searchText"  />
+                <label >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <button type="submit" value="Submit" >Search</button>
+            </form>
+        </div>
+    </div>
+    <div data-role="footer" data-id="allot_footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-id="footer_browse" data-icon="bars" data-iconpos="notext" class="ui-state-persist" data-transition="slide"></a></li>
+                <li><a href="index.html#closeToYouMenu" data-id="footer_find" data-icon="location" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="bookmarkedEvents.html" data-id="footer_find" data-icon="star" data-iconpos="notext" data-transition="slide"></a></li>
+                <li><a href="index.html#keywordPage" data-id="footer_find" data-icon="search" data-iconpos="notext" data-transition="slide"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

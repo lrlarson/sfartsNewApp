@@ -4,7 +4,7 @@ $(document).on('pagebeforeshow', function () {
 });
 
 
-
+//var dataHost = "http://127.0.0.1:8500/SFArts-Express/data/new_V4.cfc";
 //var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var dataHost = "http://sfarts.org/newApp/data/new_V4.cfc";
 var myGlobalLocation = '';
@@ -15,7 +15,7 @@ var htmlContent = '';
 
 
 
-//document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("deviceready", onDeviceReady, false);
 
 $(function(){
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -27,6 +27,7 @@ function onDeviceReady() {
     var devicePlatform = device.platform;
     checkConnection();
     //alert('deviceReady');
+    //alert(devicePlatform);
     //navigator.geolocation.getCurrentPosition(onSuccess, onError);
     var options = { timeout: 31000, enableHighAccuracy: true, maximumAge: 90000 };
     if (devicePlatform == 'Android'){
@@ -35,7 +36,7 @@ function onDeviceReady() {
     }
     else
         {
-           //alert('IOS')
+          // alert('IOS')
             navigator.geolocation.getCurrentPosition(onSuccess, onError);
         }
     // Mock device.platform property if not available
@@ -175,6 +176,32 @@ $(document).on('pageshow', "#pageMap",function () {
     //navigator.geolocation.getCurrentPosition(onSuccess,onError);
 
         });
+
+$(document).on('pageshow', "#podHighlights",function () {
+    getEventHighlightsCounts();
+
+});
+
+$(document).on('pageshow', "#museumPage",function () {
+    getActiveMuseums();
+
+});
+
+
+$(document).on('pageshow', "#weekendPage",function () {
+    getEventsForThisWeekendPage();
+
+});
+
+$(document).on('pageshow', "#todayPage",function () {
+    getEventsForTodayPage(currentDate);
+
+});
+
+$(document).on('pageshow', "#neighborHoodMenu",function () {
+    getNeighborhoodCount();
+
+});
 
 var onSuccess = function(position) {
     //alert('onSuccess');
@@ -346,7 +373,6 @@ $(document).on('pagebeforeshow', "#closeToYouList",function () {
 });
 
 $(document).on('pagebeforeshow', "#closeToYouMuseums",function () {
-
 
     $.ajax({
         url: dataHost,
@@ -896,12 +922,15 @@ function initPage(){
     getEventsForThisWeekend();
     getEventHighlights();
     getBookMarksCount();
-    getNeighborhoodCount();
-    getActiveMuseums();
+
+
 }
 
 
 function getActiveMuseums(){
+    var target = document.getElementById('museumPage');
+    var spinner = new Spinner().spin(target);
+
     $.ajax({
         url: dataHost,
         data: {
@@ -917,7 +946,7 @@ function getActiveMuseums(){
             });
             //console.log(workReturn);
 
-
+            spinner.stop();
 
             var museumEventsTemplateScript = $('#museumTemplate').html();
             museumEventsTemplate= Handlebars.compile(museumEventsTemplateScript);
@@ -1129,13 +1158,37 @@ function getEventsForToday(currentDate){
             });
             //console.log(workReturn);
             $('#todayCount').html(workReturn1.data.length);
+
+
+        }
+    });
+}
+
+function getEventsForTodayPage(currentDate){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getMasterEventsByDate_mobile',
+            returnFormat: 'json',
+            date1:currentDate,
+            date2:currentDate
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            workReturn1 = $.serializeCFJSON({
+                data: d
+            });
+            //console.log(workReturn);
+            $('#todayCount').html(workReturn1.data.length);
             dispArray = [1,2,3,4,5,6,7,8,9,10];
             count=[];
             $.each( dispArray , function( index, value ) {
                 internalCount = 0;
                 for (i=0;i < workReturn1.data.length;i++){
-                     if (workReturn1.data[i].id == value || workReturn1.data[i].id2 == value){
-                         internalCount += 1;
+                    if (workReturn1.data[i].id == value || workReturn1.data[i].id2 == value){
+                        internalCount += 1;
                     }
                 }
                 switch(value){
@@ -1176,6 +1229,27 @@ function getEventsForToday(currentDate){
 }
 
 function getEventsForThisWeekend(){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getEventsForWeekendNoDisp_mobile',
+            returnFormat: 'json'
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            //alert("success");
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+            //console.log(workReturn);
+            $('#weekendCount').html(workReturn.data.length);
+        }
+    });
+}
+
+function getEventsForThisWeekendPage(){
     $.ajax({
         url: dataHost,
         data: {
@@ -1256,6 +1330,30 @@ function getEventHighlights(){
             });
             //console.log(workReturn);
             $('#highlightCount').html(workReturn.data.length);
+
+
+        }
+    });
+
+}
+
+function getEventHighlightsCounts(){
+    $.ajax({
+        url: dataHost,
+        data: {
+            method: 'getEditorialContent_mobile',
+            returnFormat: 'json'
+        },
+        method: 'GET',
+        dataType: "json",
+        async: true,
+        success: function (d, r, o) {
+            //alert("success");
+            workReturn = $.serializeCFJSON({
+                data: d
+            });
+            //console.log(workReturn);
+
             dispArray = [1,2,3,4,5,6,7,8,9,10];
             count=[];
             $.each( dispArray , function( index, value ) {

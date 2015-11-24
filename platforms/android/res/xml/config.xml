@@ -10,15 +10,13 @@
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-    </feature>
     <feature name="StatusBar">
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
     </feature>
     <name>SFArts-Express</name>
     <description>
@@ -36,4 +34,5 @@
     <preference name="BackgroundColor" value="0xff0000ff" />
     <preference name="BackupWebStorage" value="local" />
     <preference name="SplashScreen" value="screen" />
+    <icon src="icon.png" />
 </widget>

@@ -9,7 +9,7 @@
     
     
     <cffunction name="getActiveMuseums" access="remote" returntype="Any" >
-    	<cfstoredproc procedure="procMuseumGetMuseumsActive" datasource="sfarts_CFX" >
+    	<cfstoredproc procedure="[procGetMuseumsActive]" datasource="sfarts_CFX" >
     	<cfprocresult name="active" >
     	</cfstoredproc>
     	<cfreturn active>
