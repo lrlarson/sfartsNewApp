@@ -7,28 +7,28 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
+        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
         },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
-        },
         "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
+        },
+        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
         },
-        "cordova-plugin-splashscreen": {
+        "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts-Express"
         }
     },

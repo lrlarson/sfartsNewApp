@@ -1141,6 +1141,8 @@ function getNeighborhoodCount(){
 }
 
 function getEventsForToday(currentDate){
+    var target = document.getElementById('museumPage');
+    var spinner = new Spinner().spin(target);
     $.ajax({
         url: dataHost,
         data: {
@@ -1153,6 +1155,7 @@ function getEventsForToday(currentDate){
         dataType: "json",
         async: true,
         success: function (d, r, o) {
+            spinner.stop();
             workReturn1 = $.serializeCFJSON({
                 data: d
             });
@@ -1165,6 +1168,8 @@ function getEventsForToday(currentDate){
 }
 
 function getEventsForTodayPage(currentDate){
+    var target = document.getElementById('museumPage');
+    var spinner = new Spinner().spin(target);
     $.ajax({
         url: dataHost,
         data: {
@@ -1177,6 +1182,7 @@ function getEventsForTodayPage(currentDate){
         dataType: "json",
         async: true,
         success: function (d, r, o) {
+            spinner.stop();
             workReturn1 = $.serializeCFJSON({
                 data: d
             });
@@ -1229,6 +1235,8 @@ function getEventsForTodayPage(currentDate){
 }
 
 function getEventsForThisWeekend(){
+    var target = document.getElementById('museumPage');
+    var spinner = new Spinner().spin(target);
     $.ajax({
         url: dataHost,
         data: {
@@ -1239,6 +1247,7 @@ function getEventsForThisWeekend(){
         dataType: "json",
         async: true,
         success: function (d, r, o) {
+            spinner.stop();
             //alert("success");
             workReturn = $.serializeCFJSON({
                 data: d
@@ -1250,6 +1259,8 @@ function getEventsForThisWeekend(){
 }
 
 function getEventsForThisWeekendPage(){
+    var target = document.getElementById('museumPage');
+    var spinner = new Spinner().spin(target);
     $.ajax({
         url: dataHost,
         data: {
@@ -1261,6 +1272,7 @@ function getEventsForThisWeekendPage(){
         async: true,
         success: function (d, r, o) {
             //alert("success");
+            spinner.stop();
             workReturn = $.serializeCFJSON({
                 data: d
             });

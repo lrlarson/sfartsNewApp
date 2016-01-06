@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.larsonassoc.SFarts-Express" version="1.25" xmlns="http://www.w3.org/ns/widgets" android-versionCode="30" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="30" id="org.larsonassoc.SFarts-Express" version="1.25" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SFArts-Express</name>
     <description>
         Mobile version of SF/Arts.org
@@ -16,10 +16,8 @@
     <platform name="ios">
         <preference name="Orientation" value="all" />
     </platform>
-    <!-- for android-->
-    <preference name="BackgroundColor" value="0xff0000ff"/>
-    <!-- for iOS-->
-    <preference name="BackupWebStorage" value="local"/>
+    <preference name="BackgroundColor" value="0xff0000ff" />
+    <preference name="BackupWebStorage" value="local" />
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
         <param name="android-package" value="org.apache.cordova.GeoBroker" />
@@ -28,6 +26,5 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
-
-
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.1.1" />
 </widget>

@@ -27,11 +27,15 @@
                 "parents": {
                     "/*": [
                         {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
                             "count": 1
                         },
                         {
@@ -39,11 +43,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -52,51 +60,33 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
-        },
-        "cordova-plugin-device": {
+        "cordova-plugin-dialogs": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         },
-        "cordova-plugin-dialogs": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
+        },
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
+        },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         },
-        "cordova-plugin-splashscreen": {
+        "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "org.larsonassoc.SFarts_Express"
         }
     },
     "dependent_plugins": {},
     "modules": [
-        {
-            "file": "plugins/cordova-plugin-device/www/device.js",
-            "id": "cordova-plugin-device.device",
-            "clobbers": [
-                "device"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-console/www/logger.js",
-            "id": "cordova-plugin-console.logger",
-            "clobbers": [
-                "cordova.logger"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
-            "id": "cordova-plugin-console.console",
-            "clobbers": [
-                "console"
-            ]
-        },
         {
             "file": "plugins/cordova-plugin-dialogs/www/notification.js",
             "id": "cordova-plugin-dialogs.notification",
@@ -109,6 +99,20 @@
             "id": "cordova-plugin-dialogs.notification_android",
             "merges": [
                 "navigator.notification"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
+            "id": "cordova-plugin-geolocation.geolocation",
+            "clobbers": [
+                "navigator.geolocation"
             ]
         },
         {
@@ -127,6 +131,13 @@
             ]
         },
         {
+            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "clobbers": [
+                "navigator.splashscreen"
+            ]
+        },
+        {
             "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
             "id": "cordova-plugin-statusbar.statusbar",
             "clobbers": [
@@ -134,10 +145,11 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
             "clobbers": [
-                "navigator.splashscreen"
+                "cordova.InAppBrowser.open",
+                "window.open"
             ]
         }
     ]
